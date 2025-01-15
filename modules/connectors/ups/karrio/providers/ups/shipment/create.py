@@ -568,14 +568,6 @@ def shipment_request(
                             if payload.customs
                             else None
                         ),
-                        DeliveryConfirmation=lib.identity(
-                            ups.ShipmentServiceOptionsDeliveryConfirmationType(
-                                DCISType=options.ups_delivery_confirmation.state,
-                                DCISNumber=None,
-                            )
-                            if options.ups_delivery_confirmation.state
-                            else None
-                        ),
                         ReturnOfDocumentIndicator=lib.identity(
                             "Y"
                             if options.ups_return_of_document_indicator.state
@@ -709,7 +701,19 @@ def shipment_request(
                             Weight=str(package.weight[weight_unit.name]),
                         ),
                         Commodity=None,
-                        PackageServiceOptions=None,
+                        PackageServiceOptions=lib.identity(
+                            ups.PackageServiceOptionsType(
+                                DeliveryConfirmation=lib.identity(
+                                    ups.DeliveryConfirmationType(
+                                        DCISType=options.ups_delivery_confirmation.state,
+                                    )
+                                    if options.ups_delivery_confirmation.state
+                                    else None
+                                ),
+                            )
+                            if options.ups_delivery_confirmation.state
+                            else None
+                        ),
                         UPSPremier=None,
                         ReferenceNumber=(
                             ups.ReferenceNumberType(
