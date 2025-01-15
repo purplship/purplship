@@ -9,6 +9,7 @@ class Settings(BaseSettings):
 
     username: str
     password: str
+    api_key: str
 
     account_country_code: str = None
     metadata: dict = {}
@@ -17,9 +18,9 @@ class Settings(BaseSettings):
     @property
     def server_url(self):
         return (
-            "https://test.freightcom.com/rpc2"
+            "https://customer-external-api.ssd-test.freightcom.com"
             if self.test_mode
-            else "https://app.freightcom.com/rpc2"
+            else "https://external-api.freightcom.com"
         )
 
     @property

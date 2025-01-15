@@ -12,6 +12,7 @@ class FreightcomSettings(Carrier):
 
     username = models.CharField(max_length=200)
     password = models.CharField(max_length=200)
+    api_key = models.CharField(max_length=200, null=True)
 
     @property
     def carrier_name(self) -> str:
