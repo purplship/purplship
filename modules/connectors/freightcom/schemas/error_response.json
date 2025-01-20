@@ -1,0 +1,6 @@
+{
+	"message": "bad or missing data",
+	"data": {
+		"details.destination.signature_requirement": "invalid"
+	}
+}
