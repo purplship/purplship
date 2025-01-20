@@ -1,5 +1,0 @@
-<Freightcom xmlns="http://www.freightcom.net/XMLSchema" username="username" password="XXXX" version="3.1.0">
-    <ShipmentCancelRequest>
-        <Order orderId="383363"/>
-    </ShipmentCancelRequest>
-</Freightcom>

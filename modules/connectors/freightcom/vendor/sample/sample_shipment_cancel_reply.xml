@@ -1,6 +1,0 @@
-<Freightcom xmlns="http://www.freightcom.net/XMLSchema" version="3.1.0">
-    <ShipmentCancelReply>
-        <Order orderId="383363" message="Order has been cancelled!" />
-        <Status statusId="4" />
-    </ShipmentCancelReply>
-</Freightcom>
