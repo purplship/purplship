@@ -12,8 +12,8 @@ from karrio.core.models import (
     ConfirmationDetails,
 )
 from karrio.providers.freightcom import (
-    parse_quote_reply,
-    quote_request,
+    parse_rate_response,
+    rate_request,
     parse_shipping_reply,
     shipping_request,
     shipment_cancel_request,
@@ -27,7 +27,7 @@ class Mapper(BaseMapper):
     # Request Mappers
 
     def create_rate_request(self, payload: RateRequest) -> Serializable:
-        return quote_request(payload, self.settings)
+        return rate_request(payload, self.settings)
 
     def create_shipment_request(self, payload: ShipmentRequest) -> Serializable:
         return shipping_request(payload, self.settings)
@@ -42,7 +42,7 @@ class Mapper(BaseMapper):
     def parse_rate_response(
         self, response: Deserializable
     ) -> Tuple[List[RateDetails], List[Message]]:
-        return parse_quote_reply(response, self.settings)
+        return parse_rate_response(response, self.settings)
 
     def parse_shipment_response(
         self, response: Deserializable

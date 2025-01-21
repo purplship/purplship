@@ -1,4 +1,4 @@
-from karrio.providers.freightcom.quote import parse_quote_reply, quote_request
+from karrio.providers.freightcom.rate import parse_rate_response, rate_request
 from karrio.providers.freightcom.shipping import (
     parse_shipping_reply,
     shipping_request,

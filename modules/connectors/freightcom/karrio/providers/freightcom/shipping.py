@@ -144,12 +144,12 @@ def shipping_request(
         ),
     )
 
-    packaging_type = provider_units.FreightPackagingType.map(
+    packaging_type = provider_units.PackagingType.map(
         packages.package_type or "small_box"
     ).value
     packaging = (
         "Pallet"
-        if packaging_type in [provider_units.FreightPackagingType.pallet.value]
+        if packaging_type in [provider_units.PackagingType.pallet.value]
         else "Package"
     )
     payment = payload.payment or models.Payment()

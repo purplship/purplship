@@ -1,10 +1,33 @@
 import re
+import json
+import typing
+import pathlib
 import karrio.lib as lib
 import karrio.core.units as units
+from typing import Dict, List, Union
+
+METADATA_JSON = lib.load_json(pathlib.Path(__file__).resolve().parent / "metadata.json")
+
+FREIGHTCOM_CARRIER_METADATA = [_ for _ in METADATA_JSON["PROD_SERVICES"] + METADATA_JSON["DEV_SERVICES"]]
 
 
-class FreightPackagingType(lib.StrEnum):
-    freightcom_pallet = "Pallet"
+
+KARRIO_CARRIER_MAPPING = {
+    "Freightcom": "freightcom",
+    "ups_courier": "ups",
+    "canada_post": "canadapost",
+    'fed_ex_courier': "fedex",
+    'fed_ex_express': "fedex",
+    'fed_ex_freight': "fedex",
+    'fed_ex_ground': "fedex",
+    "dhl_canada": "dhl_express",
+    "dhl_e_commerce": "dhl_express",
+}
+
+
+class PackagingType(lib.StrEnum):
+    # TODO: review types
+    freightcom_pallet = "pallet"
     freightcom_drum = "Drum"
     freightcom_boxes = "Boxes"
     freightcom_rolls = "Rolls"
@@ -15,19 +38,18 @@ class FreightPackagingType(lib.StrEnum):
     freightcom_pails = "Pails"
     freightcom_reels = "Reels"
 
-    freightcom_envelope = "Envelope"
-    freightcom_courier = "Courier"
-    freightcom_pak = "Pak"
-    freightcom_package = "Package"
+    freightcom_envelope = "envelope"
+    freightcom_courier = "courier-pak"
+    freightcom_pak = "courier-pak"
+    freightcom_package = "package"
 
     """ Unified Packaging type mapping """
     envelope = freightcom_envelope
     pak = freightcom_pak
     tube = freightcom_pipes_tubes
     pallet = freightcom_pallet
-    small_box = freightcom_boxes
-    medium_box = freightcom_boxes
-    large_box = freightcom_boxes
+    small_box = freightcom_package
+    medium_box = freightcom_package
     your_packaging = freightcom_package
 
 
@@ -40,78 +62,10 @@ class PaymentType(lib.StrEnum):  # TODO:: retrieve the complete list of payment 
     credit_card = "Card"
 
 
-class ShippingService(lib.StrEnum):
-    freightcom_all = "0"
-    freightcom_usf_holland = "1911"
-    freightcom_central_transport = "2029"
-    freightcom_estes = "2107"
-    freightcom_canpar_ground = "3400"
-    freightcom_canpar_select = "3404"
-    freightcom_canpar_overnight = "3407"
-    freightcom_dicom_ground = "3700"
-    freightcom_purolator_ground = "4000"
-    freightcom_purolator_express = "4003"
-    freightcom_purolator_express_9_am = "4004"
-    freightcom_purolator_express_10_30_am = "4005"
-    freightcom_purolator_ground_us = "4016"
-    freightcom_purolator_express_us = "4015"
-    freightcom_purolator_express_us_9_am = "4013"
-    freightcom_purolator_express_us_10_30_am = "4014"
-    freightcom_fedex_express_saver = "4100"
-    freightcom_fedex_ground = "4101"
-    freightcom_fedex_2day = "4102"
-    freightcom_fedex_priority_overnight = "4104"
-    freightcom_fedex_standard_overnight = "4105"
-    freightcom_fedex_first_overnight = "4106"
-    freightcom_fedex_international_priority = "4108"
-    freightcom_fedex_international_economy = "4109"
-    freightcom_ups_standard = "4600"
-    freightcom_ups_expedited = "4601"
-    freightcom_ups_express_saver = "4602"
-    freightcom_ups_express = "4603"
-    freightcom_ups_express_early = "4604"
-    freightcom_ups_3day_select = "4605"
-    freightcom_ups_worldwide_expedited = "4606"
-    freightcom_ups_worldwide_express = "4607"
-    freightcom_ups_worldwide_express_plus = "4608"
-    freightcom_ups_worldwide_express_saver = "4609"
-    freightcom_dhl_express_easy = "5202"
-    freightcom_dhl_express_10_30 = "5208"
-    freightcom_dhl_express_worldwide = "5211"
-    freightcom_dhl_express_12_00 = "5215"
-    freightcom_dhl_economy_select = "5216"
-    freightcom_dhl_ecommerce_am_service = "5706"
-    freightcom_dhl_ecommerce_ground_service = "5707"
-    freightcom_canadapost_regular_parcel = "6301"
-    freightcom_canadapost_expedited_parcel = "6300"
-    freightcom_canadapost_xpresspost = "6303"
-    freightcom_canadapost_priority = "6302"
-
-    @classmethod
-    def info(cls, serviceId, carrierId, serviceName, carrierName):
-        carrier_name = CARRIER_IDS.get(str(carrierId)) or carrierName
-        service = cls.map(str(serviceId))
-        formatted_name = re.sub(
-            r"((?<=[a-z])[A-Z]|(?<!\A)[A-Z](?=[a-z]))", r" \1", serviceName
-        )
-        service_name = (service.name or formatted_name).replace("freightcom_", "")
-
-        return carrier_name, service.name_or_key, service_name
-
-
-CARRIER_IDS = {
-    "34": "canpar",
-    "37": "dicom",
-    "40": "purolator",
-    "41": "fedex",
-    "52": "dhl",
-    "57": "dhl_ecommerce",
-    "63": "canadapost",
-    "46": "ups",
-}
 
 
 class ShippingOption(lib.Enum):
+    freightcom_signature_required =  lib.OptionEnum("signatureRequired", bool)
     freightcom_saturday_pickup_required = lib.OptionEnum("saturdayPickupRequired", bool)
     freightcom_homeland_security = lib.OptionEnum("homelandSecurity", bool)
     freightcom_exhibition_convention_site = lib.OptionEnum(
@@ -136,18 +90,93 @@ class ShippingOption(lib.Enum):
 
     """ Unified Option type mapping """
     saturday_delivery = freightcom_saturday_pickup_required
+    signature_confirmation = freightcom_signature_required
+
 
 
 def shipping_options_initializer(
     options: dict,
-    package_options: units.Options = None,
-) -> units.Options:
+    package_options: units.ShippingOptions = None,
+) -> units.ShippingOptions:
     """
     Apply default values to the given options.
     """
-    _options = options.copy()
 
     if package_options is not None:
-        _options.update(package_options.content)
+        options.update(package_options.content)
 
-    return units.ShippingOptions(_options, ShippingOption)
+    def items_filter(key: str) -> bool:
+        return key in ShippingOption  # type: ignore
+
+    return units.ShippingOptions(options, ShippingOption, items_filter=items_filter)
+
+
+def to_carrier_code(service: str) -> str:
+    _code = lib.to_snake_case(service['carrier_name'])
+    return KARRIO_CARRIER_MAPPING.get(_code, _code)
+
+def to_service_code(service: typing.Dict[str, str]) -> str:
+    return f"freightcom_{to_carrier_code(service)}_{lib.to_slug(service['service_name'])}"
+
+def find_courier(search: str):
+    courier: dict = next(
+        (
+            item
+            for item in FREIGHTCOM_CARRIER_METADATA
+            if to_carrier_code(item) == search
+            or item['carrier_name'] == search
+            or item['id'] == search
+        ),
+        {},
+    )
+
+    if courier:
+        return ShippingCourier.map(to_carrier_code(courier))
+
+    return ShippingCourier.map(search)
+
+def get_carrier_name(carrier_id: str) -> str:
+    return next(
+        (
+            service['carrier_name']
+            for service in METADATA_JSON["PROD_SERVICES"]
+            if service['id'].split('.')[0] == carrier_id
+        ),
+        None
+    )
+
+# FREIGHTCOM_SERVICE_METADATA = {
+#     lib.to_snake_case(service['service_name']): {
+#         **service,
+#         'carrier': service['id'].split('.')[0].split('-')[0],
+#         'carrier_name': service['carrier_name']
+#     }
+#     for service in METADATA_JSON["PROD_SERVICES"] + METADATA_JSON["DEV_SERVICES"]
+# }
+
+
+ShippingService = lib.StrEnum(
+    "ShippingService",
+    {
+        to_service_code(service): service['id']
+        for service in FREIGHTCOM_CARRIER_METADATA
+    },
+)
+ShippingCourier = lib.StrEnum(
+    "ShippingCourier",
+    {
+        to_carrier_code(service): service['carrier_name']
+        for service in FREIGHTCOM_CARRIER_METADATA
+    },
+)
+# RateProvider = lib.StrEnum(
+#     "RateProvider",
+#     {
+#         carrier_id: carrier['name']
+#         for carrier_id, carrier in FREIGHTCOM_CARRIER_METADATA.items()
+#     },
+# )
+
+
+setattr(ShippingCourier, "find", find_courier)
+
