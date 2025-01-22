@@ -93,7 +93,10 @@ class Settings(core.Settings):
 
 
 class ConnectionConfig(lib.Enum):
-    cost_center = lib.OptionEnum("CostCentreName", str)
+    """SEKO Logistics connection configuration."""
+
+    currency = lib.OptionEnum("currency", str)
+    cost_center = lib.OptionEnum("cost_center", str)
     shipping_options = lib.OptionEnum("shipping_options", list)
     shipping_services = lib.OptionEnum("shipping_services", list)
 

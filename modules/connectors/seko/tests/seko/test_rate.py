@@ -89,7 +89,7 @@ ParsedRateResponse = [
         {
             "carrier_id": "seko",
             "carrier_name": "seko",
-            "currency": "USD",
+            "currency": "GBP",
             "meta": {
                 "CarrierServiceType": "InternationalCourier",
                 "DeliveryType": "AIR TRACKED",

@@ -105,12 +105,12 @@ lxml==4.9.4
 lxml-stubs==0.5.1
 MarkupSafe==3.0.2
 monotonic==1.6
-more-itertools==10.5.0
+more-itertools==10.6.0
 oauthlib==3.2.2
 packaging==24.2
 phonenumbers==8.13.52
 pillow==11.1.0
-posthog==3.7.5
+posthog==3.8.3
 psutil==6.1.1
 psycopg2-binary==2.9.10
 py-soap==2020.3.2
@@ -131,10 +131,10 @@ redis==5.2.1
 referencing==0.35.1
 requests==2.32.3
 rpds-py==0.22.3
-sentry-sdk==2.19.2
+sentry-sdk==2.20.0
 six==1.17.0
 sqlparse==0.5.3
-strawberry-graphql==0.257.0
+strawberry-graphql==0.258.0
 tablib==3.7.0
 tinycss2==1.4.0
 tinyhtml5==2.0.0

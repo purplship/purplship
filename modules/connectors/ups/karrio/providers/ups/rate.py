@@ -254,7 +254,19 @@ def rate_request(
                             Weight=str(package.weight[weight_unit.name]),
                         ),
                         Commodity=None,
-                        PackageServiceOptions=None,
+                        PackageServiceOptions=lib.identity(
+                            ups.PackageServiceOptionsType(
+                                DeliveryConfirmation=lib.identity(
+                                    ups.DeliveryConfirmationType(
+                                        DCISType=options.ups_delivery_confirmation.state,
+                                    )
+                                    if options.ups_delivery_confirmation.state
+                                    else None
+                                ),
+                            )
+                            if options.ups_delivery_confirmation.state
+                            else None
+                        ),
                         UPSPremier=None,
                         OversizeIndicator=None,
                         MinimumBillableWeightIndicator=None,
@@ -308,13 +320,7 @@ def rate_request(
                             if options.ups_cod.state
                             else None
                         ),
-                        DeliveryConfirmation=lib.identity(
-                            ups.DeliveryConfirmationType(
-                                DCISType=options.ups_delivery_confirmation.state,
-                            )
-                            if options.ups_delivery_confirmation.state
-                            else None
-                        ),
+                        DeliveryConfirmation=None,
                         ReturnOfDocumentIndicator=lib.identity(
                             "Y"
                             if options.ups_return_of_document_indicator.state

@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="karrio.seko",
-    version="2024.12rc11",
+    version="2024.12rc12",
     description="Karrio - SEKO Logistics Shipping Extension",
     long_description=long_description,
     long_description_content_type="text/markdown",

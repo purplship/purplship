@@ -1,3 +1,15 @@
+# Karrio 2024.12.rc12
+
+## Changes
+
+### Feat
+
+- feat: add `currency` to SEKO connection config
+
+### Fix
+
+- fix: `ups` delivery confirmation data mapping (#749)
+
 # Karrio 2024.12.rc11
 
 ## Changes

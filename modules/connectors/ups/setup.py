@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="karrio.ups",
-    version="2024.12rc5",
+    version="2024.12rc12",
     description="Karrio - UPS Shipping extension",
     long_description=long_description,
     long_description_content_type="text/markdown",

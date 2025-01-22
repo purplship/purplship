@@ -478,6 +478,9 @@ RateRequestData = {
                         "UnitOfMeasurement": {"Code": "CM", "Description": "Dimension"},
                         "Width": "3.0",
                     },
+                    "PackageServiceOptions": {
+                        "DeliveryConfirmation": {"DCISType": "1"}
+                    },
                     "PackageWeight": {
                         "UnitOfMeasurement": {"Code": "KGS", "Description": "Weight"},
                         "Weight": "0.5",
@@ -527,10 +530,7 @@ RateRequestData = {
                 "ShipperNumber": "Your Account Number",
             },
             "TaxInformationIndicator": "Y",
-            "ShipmentServiceOptions": {
-                "AvailableServicesOption": "3",
-                "DeliveryConfirmation": {"DCISType": "1"},
-            },
+            "ShipmentServiceOptions": {"AvailableServicesOption": "3"},
         },
     }
 }
