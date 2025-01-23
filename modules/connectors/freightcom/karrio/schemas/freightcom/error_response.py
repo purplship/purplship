@@ -5,10 +5,10 @@ from jstruct import JStruct
 
 @s(auto_attribs=True)
 class DataType:
-    details_destination_signature_requirement: Optional[str] = None
+    services: Optional[str] = None
 
 
 @s(auto_attribs=True)
-class ErrorType:
+class ErrorResponseType:
     message: Optional[str] = None
     data: Optional[DataType] = JStruct[DataType]

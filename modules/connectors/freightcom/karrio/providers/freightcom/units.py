@@ -1,10 +1,7 @@
-import re
-import json
 import typing
 import pathlib
 import karrio.lib as lib
 import karrio.core.units as units
-from typing import Dict, List, Union
 
 METADATA_JSON = lib.load_json(pathlib.Path(__file__).resolve().parent / "metadata.json")
 
@@ -53,16 +50,29 @@ class PackagingType(lib.StrEnum):
     your_packaging = freightcom_package
 
 
+class PaymentMethodType(lib.StrEnum):
+    net_terms = "net-terms"
+    credit_card = "credit-card"
+
 class PaymentType(lib.StrEnum):  # TODO:: retrieve the complete list of payment types
-    check = "Check"
+    sender = "shipper"
+    recipient = "receiver"
+    third_party = "other"
 
-    sender = "Sender"
-    recipient = "Recipient"
-    third_party = "Third Party"
-    credit_card = "Card"
+class CustomsContentType(lib.StrEnum):
+    sale = "commercially-sold-goods"
+    gift = "gift"
+    sample = "commercial-sample"
+    repair = "repair-warranty"
+    return_merchandise = "return-shipment"
+    other = "other"
 
+    """ Unified Content type mapping """
+    documents = other
+    merchandise = sale
 
-
+# class PaymentMethodID(lib.StrEnum):
+#     ""
 
 class ShippingOption(lib.Enum):
     freightcom_signature_required =  lib.OptionEnum("signatureRequired", bool)
@@ -87,6 +97,7 @@ class ShippingOption(lib.Enum):
     freightcom_is_saturday_service = lib.OptionEnum("isSaturdayService", bool)
     freightcom_dangerous_goods_type = lib.OptionEnum("dangerousGoodsType", bool)
     freightcom_stackable = lib.OptionEnum("stackable", bool)
+    freightcom_payment_method = lib.OptionEnum("payment_method", str)
 
     """ Unified Option type mapping """
     saturday_delivery = freightcom_saturday_pickup_required

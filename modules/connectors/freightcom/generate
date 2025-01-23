@@ -14,10 +14,8 @@ quicktype() {
 
 quicktype --src="${SCHEMAS}/rate_request.json" --out="${LIB_MODULES}/rate_request.py"
 quicktype --src="${SCHEMAS}/rate_response.json" --out="${LIB_MODULES}/rate_response.py"
-quicktype --src="${SCHEMAS}/error_response.json" --out="${LIB_MODULES}/error.py"
-
-# generateDS --no-namespace-defs -o "${LIB_MODULES}/shipping_request.py" $SCHEMAS/shipping_request.xsd
-# generateDS --no-namespace-defs -o "${LIB_MODULES}/shipping_reply.py" $SCHEMAS/shipping_reply.xsd
-# generateDS --no-namespace-defs -o "${LIB_MODULES}/error.py" $SCHEMAS/error.xsd
-# generateDS --no-namespace-defs -o "${LIB_MODULES}/shipment_cancel_request.py" $SCHEMAS/shipment_cancel_request.xsd
-# generateDS --no-namespace-defs -o "${LIB_MODULES}/shipment_cancel_reply.py" $SCHEMAS/shipment_cancel_reply.xsd
+quicktype --src="${SCHEMAS}/error_response.json" --out="${LIB_MODULES}/error_response.py"
+quicktype --src="${SCHEMAS}/shipping_request.json" --out="${LIB_MODULES}/shipping_request.py"
+quicktype --src="${SCHEMAS}/shipping_response.json" --out="${LIB_MODULES}/shipping_response.py"
+quicktype --src="${SCHEMAS}/pickup_request.json" --out="${LIB_MODULES}/pickup_request.py"
+quicktype --src="${SCHEMAS}/tracking_response.json" --out="${LIB_MODULES}/tracking_response.py"

@@ -53,8 +53,8 @@ def _extract_details(
             if charges
         ],
         meta=dict(
-            rate_provider=courier.name,
-            service_name=service.name ,
+            rate_provider=courier.name_or_key,
+            service_name=service.name_or_key ,
         ),
     )
 
@@ -78,7 +78,7 @@ def rate_request(
     )
 
     request = freightcom.RateRequestType(
-        services=payload.services or [],
+        services=[provider_units.ShippingService.map(service).value_or_key for service in payload.services],
         excluded_services=[],
         details=freightcom.DetailsType(
             origin=freightcom.DestinationType(
@@ -141,49 +141,49 @@ def rate_request(
                 ) if options.dangerous_goods.state else None,
                 pallets=[
                     freightcom.PalletType(
-                        measurements=freightcom.PalletMeasurementsType(
+                        measurements=freightcom.PackageMeasurementsType(
                             weight=freightcom.WeightType(
-                                unit="kg" if parcel.weight_unit.upper() == "KG" else "lb",
-                                value=lib.to_decimal(parcel.weight)
+                                unit="kg",
+                                value=parcel.weight.KG
                             ),
                             cuboid=freightcom.CuboidType(
-                                unit="cm" if parcel.dimension_unit.upper() == "CM" else "in",
-                                l=lib.to_int(parcel.length),
-                                w=lib.to_int(parcel.width),
-                                h=lib.to_int(parcel.height)
+                                unit="cm",
+                                l=parcel.length.CM,
+                                w=parcel.width.CM,
+                                h=parcel.height.CM
                             )
                         ),
                         description=parcel.description,
                         freight_class=options.freight_class.state,
-                    ) for parcel in payload.parcels
+                    ) for parcel in packages
                 ] if packaging_type == "pallet" else [],
                 packages=[
                     freightcom.PackageType(
                         measurements=freightcom.PackageMeasurementsType(
                             weight=freightcom.WeightType(
-                                unit="kg" if parcel.weight_unit.upper() == "KG" else "lb",
-                                value=lib.to_decimal(parcel.weight)
+                                unit="kg",
+                                value=parcel.weight.KG
                             ),
                             cuboid=freightcom.CuboidType(
-                                unit="cm" if parcel.dimension_unit.upper() == "CM" else "in",
-                                l=lib.to_int(parcel.length),
-                                w=lib.to_int(parcel.width),
-                                h=lib.to_int(parcel.height)
+                                unit="cm",
+                                l=parcel.length.CM,
+                                w=parcel.width.CM,
+                                h=parcel.height.CM
                             )
                         ),
                         description=parcel.description,
-                    ) for parcel in payload.parcels
+                    ) for parcel in packages
                 ] if packaging_type == "package" else [],
                     courierpaks=[
                     freightcom.CourierpakType(
                         measurements=freightcom.CourierpakMeasurementsType(
                             weight=freightcom.WeightType(
-                                unit="kg" if parcel.weight_unit.upper() == "KG" else "lb",
-                                value=lib.to_decimal(parcel.weight)
-                            )
+                                unit="kg",
+                                value=parcel.weight.KG
+                            ),
                         ),
                         description=parcel.description,
-                    ) for parcel in payload.parcels
+                    ) for parcel in packages
                 ] if packaging_type == "courier-pak" else [],
                 insurance=freightcom.InsuranceType(
                     type='carrier',
@@ -199,7 +199,6 @@ def rate_request(
             reference_codes=[payload.reference] if payload.reference else []
         )
     )
-
     return lib.Serializable(request, lib.to_dict)
 
 

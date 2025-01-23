@@ -1,7 +1,8 @@
-import math
+import base64
 from typing import Optional
+import math
 from karrio.core import Settings as BaseSettings
-from karrio.core.utils import XP
+from karrio.lib import request
 
 
 class Settings(BaseSettings):
@@ -27,10 +28,10 @@ class Settings(BaseSettings):
     def carrier_name(self):
         return "freightcom"
 
-
-def standard_request_serializer(element) -> str:
-    return XP.export(
-        element, namespacedef_='xmlns="http://www.freightcom.net/XMLSchema"'
+def download_label(file_url: str) -> str:
+    return request(
+        decoder=lambda b: base64.encodebytes(b).decode("utf-8"),
+        url=file_url,
     )
 
 
