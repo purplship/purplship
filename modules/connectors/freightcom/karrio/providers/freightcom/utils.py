@@ -1,7 +1,8 @@
-import math
+import base64
 from typing import Optional
+import math
 from karrio.core import Settings as BaseSettings
-from karrio.core.utils import XP
+from karrio.lib import request
 
 
 class Settings(BaseSettings):
@@ -9,6 +10,7 @@ class Settings(BaseSettings):
 
     username: str
     password: str
+    api_key: str
 
     account_country_code: str = None
     metadata: dict = {}
@@ -17,19 +19,19 @@ class Settings(BaseSettings):
     @property
     def server_url(self):
         return (
-            "https://test.freightcom.com/rpc2"
+            "https://customer-external-api.ssd-test.freightcom.com"
             if self.test_mode
-            else "https://app.freightcom.com/rpc2"
+            else "https://external-api.freightcom.com"
         )
 
     @property
     def carrier_name(self):
         return "freightcom"
 
-
-def standard_request_serializer(element) -> str:
-    return XP.export(
-        element, namespacedef_='xmlns="http://www.freightcom.net/XMLSchema"'
+def download_label(file_url: str) -> str:
+    return request(
+        decoder=lambda b: base64.encodebytes(b).decode("utf-8"),
+        url=file_url,
     )
 
 

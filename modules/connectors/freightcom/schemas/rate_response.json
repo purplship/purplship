@@ -1,0 +1,47 @@
+{
+  "status": {
+    "done": true,
+    "total": 0,
+    "complete": 0
+  },
+  "rates": [
+    {
+      "carrier_name": "string",
+      "service_name": "string",
+      "service_id": "string",
+      "valid_until": {
+        "year": 2006,
+        "month": 6,
+        "day": 7
+      },
+      "total": {
+        "currency": "CAD",
+        "value": "4250"
+      },
+      "base": {
+        "currency": "CAD",
+        "value": "4250"
+      },
+      "surcharges": [
+        {
+          "type": "fuel",
+          "amount": {
+            "currency": "CAD",
+            "value": "4250"
+          }
+        }
+      ],
+      "taxes": [
+        {
+          "type": "fuel",
+          "amount": {
+            "currency": "CAD",
+            "value": "4250"
+          }
+        }
+      ],
+      "transit_time_days": 5,
+      "transit_time_not_available": true
+    }
+  ]
+}

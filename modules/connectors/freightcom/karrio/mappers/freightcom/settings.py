@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
     username: str
     password: str
+    api_key: str
 
     id: str = None
     test_mode: bool = False

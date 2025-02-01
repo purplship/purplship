@@ -1,12 +1,21 @@
-SCHEMAS=./vendor/schemas
+SCHEMAS=./schemas
 LIB_MODULES=./karrio/schemas/freightcom
+echo `pwd`
 find "${LIB_MODULES}" -name "*.py" -exec rm -r {} \;
 touch "${LIB_MODULES}/__init__.py"
 
-generateDS --no-namespace-defs -o "${LIB_MODULES}/quote_request.py" $SCHEMAS/quote_request.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/quote_reply.py" $SCHEMAS/quote_reply.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/shipping_request.py" $SCHEMAS/shipping_request.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/shipping_reply.py" $SCHEMAS/shipping_reply.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/error.py" $SCHEMAS/error.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/shipment_cancel_request.py" $SCHEMAS/shipment_cancel_request.xsd
-generateDS --no-namespace-defs -o "${LIB_MODULES}/shipment_cancel_reply.py" $SCHEMAS/shipment_cancel_reply.xsd
+quicktype() {
+    echo "Generating $1..."
+    docker run -it --rm --name quicktype -v $PWD:/app -e SCHEMAS=/app/schemas -e LIB_MODULES=/app/karrio/schemas/freightcom \
+        karrio/tools /quicktype/script/quicktype --no-uuids --no-date-times --no-enums --src-lang json --lang jstruct \
+        --all-properties-optional --type-as-suffix $@
+}
+
+
+quicktype --src="${SCHEMAS}/rate_request.json" --out="${LIB_MODULES}/rate_request.py"
+quicktype --src="${SCHEMAS}/rate_response.json" --out="${LIB_MODULES}/rate_response.py"
+quicktype --src="${SCHEMAS}/error_response.json" --out="${LIB_MODULES}/error_response.py"
+quicktype --src="${SCHEMAS}/shipping_request.json" --out="${LIB_MODULES}/shipping_request.py"
+quicktype --src="${SCHEMAS}/shipping_response.json" --out="${LIB_MODULES}/shipping_response.py"
+quicktype --src="${SCHEMAS}/pickup_request.json" --out="${LIB_MODULES}/pickup_request.py"
+quicktype --src="${SCHEMAS}/tracking_response.json" --out="${LIB_MODULES}/tracking_response.py"

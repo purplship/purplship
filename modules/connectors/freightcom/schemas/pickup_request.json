@@ -1,0 +1,39 @@
+{
+  "pickup_details": {
+    "pre_scheduled_pickup": true,
+    "date": {
+      "year": 2006,
+      "month": 6,
+      "day": 7
+    },
+    "ready_at": {
+      "hour": 15,
+      "minute": 6
+    },
+    "ready_until": {
+      "hour": 15,
+      "minute": 6
+    },
+    "pickup_location": "string",
+    "contact_name": "string",
+    "contact_phone_number": {
+      "number": "5554447777",
+      "extension": "123"
+    }
+  },
+  "dispatch_details": {
+    "date": {
+      "year": 2006,
+      "month": 6,
+      "day": 7
+    },
+    "ready_at": {
+      "hour": 15,
+      "minute": 6
+    },
+    "ready_until": {
+      "hour": 15,
+      "minute": 6
+    }
+  }
+}

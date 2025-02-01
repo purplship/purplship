@@ -1,0 +1,4671 @@
+{
+  "PROD_SERVICES": [
+    {
+      "id": "dhatttransfreightserviceinc-558.standard",
+      "carrier_name": "DHATT TRANSFREIGHT SERVICE INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kelownaexpressfreightinc-570.standard",
+      "carrier_name": "Kelowna Express Freight Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "metrofreightwaysltd-610.standard",
+      "carrier_name": "METRO FREIGHTWAYS LTD.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "scottfreight-190.standard",
+      "carrier_name": "Scott Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tforcefreight-575.standard",
+      "carrier_name": "TForce Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "vkdeliverylinehaulltd-499.standard",
+      "carrier_name": "VK DELIVERY/LINEHAUL LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "customcourierco-469.standard",
+      "carrier_name": "Custom Courier Co.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ecotransinc-396.standard",
+      "carrier_name": "ECOTRANS INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedex.economy",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Economy"
+    },
+    {
+      "id": "fedex.standard",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Priority"
+    },
+    {
+      "id": "gtagsm-540.standard",
+      "carrier_name": "G.T.A GSM",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersleytransportusa-551.standard",
+      "carrier_name": "Kindersley Transport | USA",
+      "service_name": "Standard"
+    },
+    {
+      "id": "lodestarlogistics-446.standard",
+      "carrier_name": "LODESTAR LOGISTICS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "loomis-express.express-0900",
+      "carrier_name": "Loomis",
+      "service_name": "Express 9:00"
+    },
+    {
+      "id": "loomis-express.express-1200",
+      "carrier_name": "Loomis",
+      "service_name": "Express 12:00"
+    },
+    {
+      "id": "loomis-express.express-1800",
+      "carrier_name": "Loomis",
+      "service_name": "Express 18:00"
+    },
+    {
+      "id": "loomis-express.ground",
+      "carrier_name": "Loomis",
+      "service_name": "Ground"
+    },
+    {
+      "id": "mrflatbedstransportinc-284.standard",
+      "carrier_name": "Mr Flatbeds Transport Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bisontransport-278.standard",
+      "carrier_name": "Bison Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "canpar.ground",
+      "carrier_name": "Canpar",
+      "service_name": "Ground"
+    },
+    {
+      "id": "canpar.international",
+      "carrier_name": "Canpar",
+      "service_name": "International"
+    },
+    {
+      "id": "canpar.overnight",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight"
+    },
+    {
+      "id": "canpar.overnight-letter",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight Letter"
+    },
+    {
+      "id": "canpar.overnight-pak",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight Pak"
+    },
+    {
+      "id": "canpar.select",
+      "carrier_name": "Canpar",
+      "service_name": "Select"
+    },
+    {
+      "id": "canpar.select-letter",
+      "carrier_name": "Canpar",
+      "service_name": "Select Letter"
+    },
+    {
+      "id": "canpar.select-pak",
+      "carrier_name": "Canpar",
+      "service_name": "Select Pak"
+    },
+    {
+      "id": "canpar.select-usa",
+      "carrier_name": "Canpar",
+      "service_name": "Select U.S.A."
+    },
+    {
+      "id": "canpar.usa",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A."
+    },
+    {
+      "id": "canpar.usa-Letter",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A. Letter"
+    },
+    {
+      "id": "canpar.usa-pak",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A. Pak"
+    },
+    {
+      "id": "csa.standard",
+      "carrier_name": "CSA",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ettransportgroup-337.standard",
+      "carrier_name": "ET Transport Group",
+      "service_name": "Standard"
+    },
+    {
+      "id": "guardiumlogisticsltd-608.standard",
+      "carrier_name": "Guardium Logistics Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "keltictransportation-465.standard",
+      "carrier_name": "Keltic Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kjlxpressinc-583.standard",
+      "carrier_name": "KJL Xpress Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "newpennmotorexpress-445.standard",
+      "carrier_name": "New Penn Motor Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bridgepointlogisticsltd-524.standard",
+      "carrier_name": "BRIDGEPOINT LOGISTICS LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "canadapost.domestic",
+      "carrier_name": "Canada Post",
+      "service_name": "Domestic"
+    },
+    {
+      "id": "canadapost.expedited-parcel",
+      "carrier_name": "Canada Post",
+      "service_name": "Expedited Parcel"
+    },
+    {
+      "id": "canadapost.expedited-parcel-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Expedited Parcel USA"
+    },
+    {
+      "id": "canadapost.international",
+      "carrier_name": "Canada Post",
+      "service_name": "International"
+    },
+    {
+      "id": "canadapost.international-parcel-air",
+      "carrier_name": "Canada Post",
+      "service_name": "International Parcel Air"
+    },
+    {
+      "id": "canadapost.international-parcel-surface",
+      "carrier_name": "Canada Post",
+      "service_name": "International Parcel Surface"
+    },
+    {
+      "id": "canadapost.priority",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority"
+    },
+    {
+      "id": "canadapost.priority-ww-envelope-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide envelope INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-envelope-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide envelope USA"
+    },
+    {
+      "id": "canadapost.priority-ww-pak-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide pak INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-pak-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide pak USA"
+    },
+    {
+      "id": "canadapost.priority-ww-parcel-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide parcel INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-parcel-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide parcel USA"
+    },
+    {
+      "id": "canadapost.regular-parcel",
+      "carrier_name": "Canada Post",
+      "service_name": "Regular Parcel"
+    },
+    {
+      "id": "canadapost.small-packet-international-air",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet International Air"
+    },
+    {
+      "id": "canadapost.small-packet-international-surface",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet International Surface"
+    },
+    {
+      "id": "canadapost.small-packet-usa-air",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet USA Air"
+    },
+    {
+      "id": "canadapost.tracked-packet-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Tracked Packet - International"
+    },
+    {
+      "id": "canadapost.tracked-packet-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Tracked Packet USA"
+    },
+    {
+      "id": "canadapost.xpresspost",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost"
+    },
+    {
+      "id": "canadapost.xpresspost-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost International"
+    },
+    {
+      "id": "canadapost.xpresspost-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost USA"
+    },
+    {
+      "id": "gardewine.standard",
+      "carrier_name": "Gardewine",
+      "service_name": "Standard"
+    },
+    {
+      "id": "giantleaftruckinginc-556.standard",
+      "carrier_name": "GIANT LEAF TRUCKING INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorfreight.standard",
+      "carrier_name": "Purolator Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "swyft.nextday",
+      "carrier_name": "Swyft",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "swyft.sameday",
+      "carrier_name": "Swyft",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "usps.ground-advantage",
+      "carrier_name": "USPS",
+      "service_name": "Ground Advantage"
+    },
+    {
+      "id": "usps.priority-mail",
+      "carrier_name": "USPS",
+      "service_name": "Priority Mail"
+    },
+    {
+      "id": "usps.priority-mail-express",
+      "carrier_name": "USPS",
+      "service_name": "Priority Mail Express"
+    },
+    {
+      "id": "xwestcarriersinc-547.standard",
+      "carrier_name": "X West Carriers Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "paulsfreightline-400.standard",
+      "carrier_name": "PAULS FREIGHTLINE",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ppgroadlinesinc-250.standard",
+      "carrier_name": "PPG ROADLINES INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transportgilleslavigne-592.standard",
+      "carrier_name": "Transport Gilles Lavigne",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xpologistics-265.standard",
+      "carrier_name": "XPO Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "upscourier-162.standard",
+      "carrier_name": "UPS Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "94222528qubecincdbagroupefmj-626.standard",
+      "carrier_name": "9422-2528 Québec Inc. DBA Groupe FMJ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "one.standard",
+      "carrier_name": "ONE Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "readygotransportinc-435.standard",
+      "carrier_name": "READY GO TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "streetkingtransportationltd-557.standard",
+      "carrier_name": "STREET KING TRANSPORTATION LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "martinroytransport-310.standard",
+      "carrier_name": "Martin Roy Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-entrance",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Entrance - 2 Person"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-room-of-choice",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice - 2 Person"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-room-of-choice-with-debris-removal",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Two-person delivery to room of choice with debris removal"
+    },
+    {
+      "id": "sameday.dayr-ecom-urgent-pac",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "eCommerce Urgent Pak"
+    },
+    {
+      "id": "sameday.delivery-to-entrance",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Entrance"
+    },
+    {
+      "id": "sameday.delivery-to-room-of-choice",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice"
+    },
+    {
+      "id": "sameday.delivery-to-room-of-choice-with-debris-removal",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice with Debris Removal"
+    },
+    {
+      "id": "sameday.ground-daynross-road",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Ground - Road"
+    },
+    {
+      "id": "sameday.next-day-before-5pm",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery by 5 PM"
+    },
+    {
+      "id": "sameday.next-day-before-9am",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery by 9 AM"
+    },
+    {
+      "id": "sameday.next-day-delivery-before-noon",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery Before Noon"
+    },
+    {
+      "id": "searcytrucking-462.standard",
+      "carrier_name": "Searcy Trucking",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transkidinc-453.standard",
+      "carrier_name": "Transkid Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "amatransinc-251.standard",
+      "carrier_name": "AMA Trans Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "checkercourier-276.standard",
+      "carrier_name": "Checker Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "empiretransportltd-413.standard",
+      "carrier_name": "EMPIRE TRANSPORT LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "flashtransport-388.standard",
+      "carrier_name": "Flash Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "wce.standard",
+      "carrier_name": "WCE",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "xpoglobalforwardinginc-416.standard",
+      "carrier_name": "XPO GLOBAL FORWARDING INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kjstransport-623.standard",
+      "carrier_name": "KJS Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ltlexpressfreight-459.standard",
+      "carrier_name": "LTL EXPRESS FREIGHT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "overland.standard",
+      "carrier_name": "Overland",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dbgtrucking-132.standard",
+      "carrier_name": "DBG TRUCKING ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhillondhillontransportltd-528.standard",
+      "carrier_name": "Dhillon & Dhillon Transport Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "freightboy-565.standard",
+      "carrier_name": "FREIGHT BOY",
+      "service_name": "Standard"
+    },
+    {
+      "id": "highrisetransport-545.standard",
+      "carrier_name": "HIGH RISE TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrcfreight-330.standard",
+      "carrier_name": "YRC Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "caledoncouriers-294.standard",
+      "carrier_name": "Caledon Couriers",
+      "service_name": "Standard"
+    },
+    {
+      "id": "proactivetransportcoproactivesupplycahinsolutionsinc-471.standard",
+      "carrier_name": "PROACTIVE TRANSPORT C/O PROACTIVE SUPPLYCAHIN SOLUTIONS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "roadtrainexpress-433.standard",
+      "carrier_name": "ROAD TRAIN EXPRESS ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sablemarcoinc-509.standard",
+      "carrier_name": "Sable Marco inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "here2therefreightmanagementinc-629.standard",
+      "carrier_name": "Here 2 There Freight Management Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "thompsonemergencyfreightsystems-277.standard",
+      "carrier_name": "Thompson Emergency Freight Systems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhl-ecomm.packet-international",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Package International"
+    },
+    {
+      "id": "dhl-ecomm.parcel-expedited",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Expedited"
+    },
+    {
+      "id": "dhl-ecomm.parcel-expedited-max",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Expedited Max"
+    },
+    {
+      "id": "dhl-ecomm.parcel-ground",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Ground"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct-priority",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct Priority"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct-standard",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct Standard"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-standard",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Standard"
+    },
+    {
+      "id": "excel-transport.standard",
+      "carrier_name": "Excel Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "newpenn.standard",
+      "carrier_name": "New Penn",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bettertrucks.ddu",
+      "carrier_name": "Better Trucks",
+      "service_name": "DDU"
+    },
+    {
+      "id": "bettertrucks.express",
+      "carrier_name": "Better Trucks",
+      "service_name": "Express"
+    },
+    {
+      "id": "bettertrucks.next_day",
+      "carrier_name": "Better Trucks",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "bettertrucks.same_day",
+      "carrier_name": "Better Trucks",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "boxknight.next-day",
+      "carrier_name": "BoxKnight",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "boxknight.sameday",
+      "carrier_name": "BoxKnight",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "cranestransport-555.standard",
+      "carrier_name": "CRANES TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "daynross.cs",
+      "carrier_name": "Day & Ross",
+      "service_name": "CS"
+    },
+    {
+      "id": "daynross.domestic-standard",
+      "carrier_name": "Day & Ross",
+      "service_name": "Domestic Standard"
+    },
+    {
+      "id": "daynross.transborder-standard",
+      "carrier_name": "Day & Ross",
+      "service_name": "Transborder Standard"
+    },
+    {
+      "id": "loadsafecrossborderfreightinc-493.standard",
+      "carrier_name": "LOADSAFE CROSSBORDER FREIGHT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "maritimeontario-267.standard",
+      "carrier_name": "Maritime-Ontario",
+      "service_name": "Standard"
+    },
+    {
+      "id": "saiamotorfreightinc-139.standard",
+      "carrier_name": "Saia Motor Freight Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "speedytransport-153.standard",
+      "carrier_name": "Speedy Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bakshbroscartageinc-485.standard",
+      "carrier_name": "BAKSH BROS. CARTAGE INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "estesexpresslines-274.standard",
+      "carrier_name": "ESTES Express Lines",
+      "service_name": "Standard"
+    },
+    {
+      "id": "highenergytransportinc-533.standard",
+      "carrier_name": "High Energy Transport Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kriskaytrucklinesinc-443.standard",
+      "carrier_name": "Kris Kay Truck Lines Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rollsright-245.standard",
+      "carrier_name": "Rolls Right",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sunshinecoastlogisticsinc-614.standard",
+      "carrier_name": "Sunshine Coast Logistics Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "uppaltransportltddbabluewatertrucking-615.standard",
+      "carrier_name": "Uppal Transport Ltd dba Bluewater Trucking",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrossfreightrl-529.standard",
+      "carrier_name": "Day & Ross Freight | R+L",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fgmtrucklines-235.standard",
+      "carrier_name": "FGM Trucklines",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kdrtrucklinesinc-627.standard",
+      "carrier_name": "KDR Trucklines Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "psrlogisticsinc-506.standard",
+      "carrier_name": "PSR LOGISTICS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "northplusgroupofcompanies-568.standard",
+      "carrier_name": "NORTH PLUS GROUP OF COMPANIES",
+      "service_name": "Standard"
+    },
+    {
+      "id": "swiftdeliverysystems-268.standard",
+      "carrier_name": "Swift Delivery Systems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "vitran.maxx",
+      "carrier_name": "Vitran",
+      "service_name": "Maxx"
+    },
+    {
+      "id": "vitran.priority",
+      "carrier_name": "Vitran",
+      "service_name": "Priority"
+    },
+    {
+      "id": "vitran.regular",
+      "carrier_name": "Vitran",
+      "service_name": "Regular"
+    },
+    {
+      "id": "fastnflowlogistics-487.standard",
+      "carrier_name": "FAST N FLOW LOGISTICS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fpifreightpartnersinternationalinc-458.standard",
+      "carrier_name": "FPI - FREIGHT PARTNERS INTERNATIONAL INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gsm.air-skip",
+      "carrier_name": "GTA GSM",
+      "service_name": "AirSkip"
+    },
+    {
+      "id": "gsm.air-skip-plus",
+      "carrier_name": "GTA GSM",
+      "service_name": "AirSkip+"
+    },
+    {
+      "id": "gsm.armed-secure-air",
+      "carrier_name": "GTA GSM",
+      "service_name": "Armed Secure Air"
+    },
+    {
+      "id": "gsm.armed-secure-ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Armed Secure Ground"
+    },
+    {
+      "id": "gsm.ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Ground"
+    },
+    {
+      "id": "gsm.secure-air",
+      "carrier_name": "GTA GSM",
+      "service_name": "Secure Air"
+    },
+    {
+      "id": "gsm.secure-ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Secure Ground"
+    },
+    {
+      "id": "gsm.zone-skip",
+      "carrier_name": "GTA GSM",
+      "service_name": "ZoneSkip"
+    },
+    {
+      "id": "gsm.zone-skip-plus",
+      "carrier_name": "GTA GSM",
+      "service_name": "ZoneSkip+"
+    },
+    {
+      "id": "mcarthurexpress-503.standard",
+      "carrier_name": "Mcarthur Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "himmatpuralogisticsinc-473.standard",
+      "carrier_name": "HIMMATPURA LOGISTICS INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "proformanceintermodalinc-489.standard",
+      "carrier_name": "Pro-Formance Intermodal Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "whistlercourier-621.standard",
+      "carrier_name": "Whistler Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "armourtransportationsystems-562.standard",
+      "carrier_name": "Armour Transportation Systems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fastfrategroup-498.standard",
+      "carrier_name": "Fastfrate Group",
+      "service_name": "Standard"
+    },
+    {
+      "id": "glotransports-530.standard",
+      "carrier_name": "GLO TRANSPORTS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gsdirect-292.standard",
+      "carrier_name": "G&S Direct",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gls.ground",
+      "carrier_name": "GLS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "lighthousetransportationinc-619.standard",
+      "carrier_name": "LIGHTHOUSE TRANSPORTATION INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pbtransport-507.standard",
+      "carrier_name": "P&B TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "servicestarfreightways-441.standard",
+      "carrier_name": "ServiceStar Freightways",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-guarnteed",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight Guaranteed"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-ltl",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight LTL"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-standard",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight Standard"
+    },
+    {
+      "id": "zipcourier-468.standard",
+      "carrier_name": "Zip Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cmwexpress-537.standard",
+      "carrier_name": "CMW Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ktslogisticsinc-620.standard",
+      "carrier_name": "KTS LOGISTICS INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "raymanmotorfreight-357.standard",
+      "carrier_name": "Rayman Motor Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "safeloadtransportltd-510.standard",
+      "carrier_name": "SAFE LOAD TRANSPORT LTD. ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "milyardgroupinc-391.standard",
+      "carrier_name": "Milyard Group Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "minimax.standard",
+      "carrier_name": "Minimax",
+      "service_name": "Standard"
+    },
+    {
+      "id": "suretrackgroup-369.standard",
+      "carrier_name": "SureTrack Group",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ctmatransport-535.standard",
+      "carrier_name": "CTMA Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kawarthacourier-425.standard",
+      "carrier_name": "Kawartha Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kepatransportinc-516.standard",
+      "carrier_name": "KEPA Transport Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersley-freight.domestic-expedited",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Expedited"
+    },
+    {
+      "id": "kindersley-freight.domestic-rail",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Rail"
+    },
+    {
+      "id": "kindersley-freight.domestic-road",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Road"
+    },
+    {
+      "id": "kindersley-freight.transborder",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Transborder"
+    },
+    {
+      "id": "boeingtruckinginc-593.standard",
+      "carrier_name": "Boeing Trucking Inc. ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "freightcom-134.standard",
+      "carrier_name": "Freightcom",
+      "service_name": "Standard"
+    },
+    {
+      "id": "groupemorneau-599.standard",
+      "carrier_name": "Groupe Morneau",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xpofreightbrokerage-280.standard",
+      "carrier_name": "XPO  Freight Brokerage",
+      "service_name": "Standard"
+    },
+    {
+      "id": "aalfatransportationcorporation-596.standard",
+      "carrier_name": "A ALFA TRANSPORTATION CORPORATION",
+      "service_name": "Standard"
+    },
+    {
+      "id": "barriedirecttransportation-428.standard",
+      "carrier_name": "Barrie Direct Transportation ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fastfrate.express",
+      "carrier_name": "Fastfrate",
+      "service_name": "Express"
+    },
+    {
+      "id": "fastfrate.standard",
+      "carrier_name": "Fastfrate",
+      "service_name": "Standard"
+    },
+    {
+      "id": "flatouttransportation-566.standard",
+      "carrier_name": "Flat Out Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "reddaway.guaranteed-3pm",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 3:30 PM"
+    },
+    {
+      "id": "reddaway.guaranteed-9am",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 9 AM"
+    },
+    {
+      "id": "reddaway.guaranteed-noon",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 12:00 PM (noon)"
+    },
+    {
+      "id": "reddaway.guaranteed-weekend",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Weekend"
+    },
+    {
+      "id": "reddaway.guarenteed-9am",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 9 AM"
+    },
+    {
+      "id": "reddaway.guarenteed-noon",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 12:00 PM (noon)"
+    },
+    {
+      "id": "reddaway.interline",
+      "carrier_name": "Reddaway",
+      "service_name": "Interline Delivery"
+    },
+    {
+      "id": "reddaway.multi-hour-window",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Multi-Hour Window"
+    },
+    {
+      "id": "reddaway.regional-delivery",
+      "carrier_name": "Reddaway",
+      "service_name": "Regional Delivery"
+    },
+    {
+      "id": "reddaway.single-hour-window",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Single-hour Window"
+    },
+    {
+      "id": "reddaway.single-or-multi-day",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Single or Multi-day Window"
+    },
+    {
+      "id": "reddaway.standard",
+      "carrier_name": "Reddaway",
+      "service_name": "Standard"
+    },
+    {
+      "id": "urbanvalleytransport-526.standard",
+      "carrier_name": "Urban Valley Transport ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xrpexpress-618.standard",
+      "carrier_name": "XRP Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "actionforcetransportltd-363.standard",
+      "carrier_name": "Action Force Transport Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "airpro-255.standard",
+      "carrier_name": "Air Pro",
+      "service_name": "Standard"
+    },
+    {
+      "id": "asslafreightinc-588.standard",
+      "carrier_name": "ASSLA FREIGHT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhlexpress.domestic-express",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express"
+    },
+    {
+      "id": "dhlexpress.domestic-express1030am",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express 10:30"
+    },
+    {
+      "id": "dhlexpress.domestic-express9am",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express 9:00"
+    },
+    {
+      "id": "dhlexpress.economy-select",
+      "carrier_name": "DHL Express",
+      "service_name": "Economy Select"
+    },
+    {
+      "id": "dhlexpress.express-easy",
+      "carrier_name": "DHL Express",
+      "service_name": "Express Easy"
+    },
+    {
+      "id": "dhlexpress.express-worldwide",
+      "carrier_name": "DHL Express",
+      "service_name": "Express Worldwide"
+    },
+    {
+      "id": "dhlexpress.express1030am",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 10:30"
+    },
+    {
+      "id": "dhlexpress.express12pm",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 12:00"
+    },
+    {
+      "id": "dhlexpress.express9am",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 9:00"
+    },
+    {
+      "id": "intelcom.standard",
+      "carrier_name": "Intelcom",
+      "service_name": "Standard"
+    },
+    {
+      "id": "jardinetransport-217.standard",
+      "carrier_name": "JARDINE TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sutcocontractingltddbasutcotransportationspecialist-552.standard",
+      "carrier_name": "SUTCO CONTRACTING LTD./DBA SUTCO TRANSPORTATION SPECIALIST",
+      "service_name": "Standard"
+    },
+    {
+      "id": "whistler99courier-621.standard",
+      "carrier_name": "Whistler 99 Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apps.intermodal",
+      "carrier_name": "APPS",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "apps.standard",
+      "carrier_name": "APPS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dbgtrucking-527.standard",
+      "carrier_name": "DBG TRUCKING ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "deliverytechinc-442.standard",
+      "carrier_name": "Delivery Tech Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hiway.standard",
+      "carrier_name": "Hi-Way9",
+      "service_name": "Standard"
+    },
+    {
+      "id": "speedxtransport-319.standard",
+      "carrier_name": "SpeedX Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "alldaystransportltd-449.standard",
+      "carrier_name": "ALL DAYS TRANSPORT LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhlexpress-230.standard",
+      "carrier_name": "DHL Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "freightcomfulfilment-429.standard",
+      "carrier_name": "Freightcom Fulfilment",
+      "service_name": "Standard"
+    },
+    {
+      "id": "makfreightlinesltd-422.standard",
+      "carrier_name": "MAK FREIGHT LINES LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "nationex.standard",
+      "carrier_name": "Nationex",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pacemarathon-611.standard",
+      "carrier_name": "Pace Marathon",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transprofreightsystemsltd-394.standard",
+      "carrier_name": "Transpro Freight Systems Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "diamonddelivery-275.standard",
+      "carrier_name": "Diamond Delivery",
+      "service_name": "Standard"
+    },
+    {
+      "id": "driverdirect-586.standard",
+      "carrier_name": "Driver Direct",
+      "service_name": "Standard"
+    },
+    {
+      "id": "inetexpress-521.standard",
+      "carrier_name": "I-Net Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "morneau.standard",
+      "carrier_name": "Morneau Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "wtmlogisticsltd-579.standard",
+      "carrier_name": "WTM LOGISTICS LTD.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ab-courier.canada-1030am",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada 10:30am"
+    },
+    {
+      "id": "ab-courier.canada-930am",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada 9:30am"
+    },
+    {
+      "id": "ab-courier.canada-ground",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada Ground"
+    },
+    {
+      "id": "ab-courier.canada-overnight",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada Overnight"
+    },
+    {
+      "id": "ab-courier.direct",
+      "carrier_name": "A&B Courier",
+      "service_name": "Direct"
+    },
+    {
+      "id": "ab-courier.four-hour",
+      "carrier_name": "A&B Courier",
+      "service_name": "Four Hour"
+    },
+    {
+      "id": "ab-courier.rush",
+      "carrier_name": "A&B Courier",
+      "service_name": "Rush"
+    },
+    {
+      "id": "ab-courier.sameday",
+      "carrier_name": "A&B Courier",
+      "service_name": "Sameday"
+    },
+    {
+      "id": "ab-courier.usa-ground",
+      "carrier_name": "A&B Courier",
+      "service_name": "USA Ground"
+    },
+    {
+      "id": "daytonfreight-581.standard",
+      "carrier_name": "Dayton Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mtslogisticsint-307.standard",
+      "carrier_name": "MTS Logistics Int.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "quikxtransportationinc-490.standard",
+      "carrier_name": "Quik X Transportation Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sabbystransportinc-574.standard",
+      "carrier_name": "Sabby?s Transport Inc ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "spring-gds.spring-direct",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Direct"
+    },
+    {
+      "id": "spring-gds.spring-gateway-parcel",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Gateway Parcel"
+    },
+    {
+      "id": "spring-gds.spring-packet-plus",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Plus Registered"
+    },
+    {
+      "id": "spring-gds.spring-packet-tracked",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Tracked"
+    },
+    {
+      "id": "spring-gds.spring-packet-untracked",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Untracked"
+    },
+    {
+      "id": "lplogisticsinc-622.standard",
+      "carrier_name": "LP Logistics Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pctransport-256.standard",
+      "carrier_name": "PC Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "peaktransport-497.standard",
+      "carrier_name": "PEAK TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "polaristransportation-188.standard",
+      "carrier_name": "Polaris Transportation ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "uts-470.standard",
+      "carrier_name": "UTS ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhillonsnationalservices-531.standard",
+      "carrier_name": "DHILLON'S NATIONAL SERVICES",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gryphontransportationinc-563.standard",
+      "carrier_name": "GRYPHON TRANSPORTATION INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "holmesfreight-346.standard",
+      "carrier_name": "Holmes Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transporttransramexpressinc-370.standard",
+      "carrier_name": "Transport Transram Express Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "overlandwestfreightlines-253.standard",
+      "carrier_name": "Overland West Freight Lines",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cbstealthexpressinc-520.standard",
+      "carrier_name": "C.B. Stealth Express Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "geowavelogistics-604.standard",
+      "carrier_name": "Geo Wave Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "heartlandtransportltd-624.standard",
+      "carrier_name": "Heartland Transport Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersley-courier.standard",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "diamondtransportlogistics-477.standard",
+      "carrier_name": "Diamond Transport Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "maritime.dry",
+      "carrier_name": "Maritime",
+      "service_name": "Dry"
+    },
+    {
+      "id": "maritime.frozen",
+      "carrier_name": "Maritime",
+      "service_name": "Reefer"
+    },
+    {
+      "id": "maritime.heat",
+      "carrier_name": "Maritime",
+      "service_name": "Heat"
+    },
+    {
+      "id": "proactiftransportinc-460.standard",
+      "carrier_name": "ProActif Transport Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rightservicerightchoicetransportationandwarehouse-578.standard",
+      "carrier_name": "RIGHT SERVICE RIGHT CHOICE TRANSPORTATION AND WAREHOUSE",
+      "service_name": "Standard"
+    },
+    {
+      "id": "averittexpress-576.standard",
+      "carrier_name": "Averitt Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bitzertruckingltd-591.standard",
+      "carrier_name": "Bitzer Trucking Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cctcanada-211.standard",
+      "carrier_name": "CCT Canada",
+      "service_name": "Standard"
+    },
+    {
+      "id": "centraltransport-427.standard",
+      "carrier_name": "Central Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "saraixpresstruckinginc-336.standard",
+      "carrier_name": "SARAI XPRESS TRUCKING INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "onroutefreightservicesinc-598.standard",
+      "carrier_name": "ONROUTE FREIGHT SERVICES INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ontargettransportation-283.standard",
+      "carrier_name": "On Target Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sunstarhaulersinc-590.standard",
+      "carrier_name": "SUNSTAR HAULERS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transportecononord-495.standard",
+      "carrier_name": "Transport Econo Nord",
+      "service_name": "Standard"
+    },
+    {
+      "id": "allspeed-432.standard",
+      "carrier_name": "All Speed",
+      "service_name": "Standard"
+    },
+    {
+      "id": "canedatransport-189.standard",
+      "carrier_name": "Caneda Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "globaltranslogisticsltd-464.standard",
+      "carrier_name": "GLOBAL TRANS & LOGISTICS LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "holland.guaranteed-330-pm",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by 3:30 PM"
+    },
+    {
+      "id": "holland.guaranteed-9-am",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by 9:00 AM"
+    },
+    {
+      "id": "holland.guaranteed-day",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Day"
+    },
+    {
+      "id": "holland.guaranteed-hour",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Hour"
+    },
+    {
+      "id": "holland.guaranteed-multi-hour",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Multi Hour"
+    },
+    {
+      "id": "holland.guaranteed-noon",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by Noon"
+    },
+    {
+      "id": "holland.guaranteed-weekend",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Weekend"
+    },
+    {
+      "id": "holland.inter-regional",
+      "carrier_name": "Holland Freight",
+      "service_name": "Inter-Regional"
+    },
+    {
+      "id": "holland.interline",
+      "carrier_name": "Holland Freight",
+      "service_name": "Interline"
+    },
+    {
+      "id": "holland.regional",
+      "carrier_name": "Holland Freight",
+      "service_name": "Regional"
+    },
+    {
+      "id": "westerncanadaexpress-259.standard",
+      "carrier_name": "Western Canada Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "roadlinkxpress-553.standard",
+      "carrier_name": "ROAD LINK XPRESS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "stishehwaztransportinc-597.standard",
+      "carrier_name": "STI - Shehwaz Transport Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "jbfexpress-430.standard",
+      "carrier_name": "JBF Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mjexpress-377.standard",
+      "carrier_name": "MJ Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pdfreight-612.standard",
+      "carrier_name": "PD Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "riserstransportinc-523.standard",
+      "carrier_name": "RISERS TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "greenwaycarriers-475.standard",
+      "carrier_name": "GREENWAY CARRIERS ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kimberlytransportltd-327.standard",
+      "carrier_name": "Kimberly Transport Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersleytransport-263.standard",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "southeasternfreightlines-573.standard",
+      "carrier_name": "Southeastern Freight Lines",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayton-freight.standard",
+      "carrier_name": "Dayton Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "otxlogisticscanadaltd-414.standard",
+      "carrier_name": "OTX Logistics Canada Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "overlandfreightinternational-534.standard",
+      "carrier_name": "Overland Freight International",
+      "service_name": "Standard"
+    },
+    {
+      "id": "westtransautoinc-367.standard",
+      "carrier_name": "WestTransAuto Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hollandmotorfreight-371.standard",
+      "carrier_name": "Holland Motor Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "lowfreightratecaltd-406.standard",
+      "carrier_name": "LOW FREIGHT RATE.CA LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "precisiontrucklines-410.standard",
+      "carrier_name": "PRECISION TRUCK LINES",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sewaenterpriseltd-405.standard",
+      "carrier_name": "SEWA ENTERPRISE LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-direct",
+      "carrier_name": "A&B Courier",
+      "service_name": "Direct (Pallet)"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-rush",
+      "carrier_name": "A&B Courier",
+      "service_name": "Rush (Pallet)"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-sameday",
+      "carrier_name": "A&B Courier",
+      "service_name": "Sameday (Pallet)"
+    },
+    {
+      "id": "bmptransport-318.standard",
+      "carrier_name": "BMP Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "courrierplus-494.standard",
+      "carrier_name": "Courrier Plus",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedexground-426.standard",
+      "carrier_name": "FedEx Ground",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mototransportation-264.standard",
+      "carrier_name": "Moto Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "acecourier-519.standard",
+      "carrier_name": "ACE Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "caneda-189.standard",
+      "carrier_name": "Caneda",
+      "service_name": "Standard"
+    },
+    {
+      "id": "expotrans-518.standard",
+      "carrier_name": "EXPOTRANS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "frontlinecarriersystemsinc-496.standard",
+      "carrier_name": "Frontline Carrier Systems Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "frontlinefreight-492.standard",
+      "carrier_name": "Frontline Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "nishantransportinc-423.standard",
+      "carrier_name": "NISHAN TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transamcarriersinc-482.standard",
+      "carrier_name": "TRANSAM CARRIERS INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "aarontruckingltd-513.standard",
+      "carrier_name": "AARON TRUCKING LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apexmotorexpress-258.standard",
+      "carrier_name": "Apex Motor Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "comox.standard",
+      "carrier_name": "Comox Pacific Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fleet-optics.standard",
+      "carrier_name": "Fleet Optics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "garrymercertrucking-452.standard",
+      "carrier_name": "Garry Mercer Trucking",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hnmlogisticsinc-436.standard",
+      "carrier_name": "HNM LOGISTICS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "smartexpressltd-488.standard",
+      "carrier_name": "s.m.a.r.t. Express Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "aaacooper-594.standard",
+      "carrier_name": "AAA Cooper",
+      "service_name": "Standard"
+    },
+    {
+      "id": "abcourier-480.standard",
+      "carrier_name": "A&B Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cretransport-287.standard",
+      "carrier_name": "CRE Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedexexpress-272.standard",
+      "carrier_name": "FedEx Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rangefreightwaysltd-448.standard",
+      "carrier_name": "Range Freightways Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "recalltransportservicesinc-609.standard",
+      "carrier_name": "Recall Transport Services Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "saraixpresstruckinginc-379.standard",
+      "carrier_name": "Sarai Xpress Trucking Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "trans2-293.standard",
+      "carrier_name": "Trans2",
+      "service_name": "Standard"
+    },
+    {
+      "id": "coastlineexpress-536.standard",
+      "carrier_name": "Coastline Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "d4logisticsinc-505.standard",
+      "carrier_name": "D4 LOGISTICS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "exceltransportation-328.standard",
+      "carrier_name": "Excel Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorcourier.express",
+      "carrier_name": "Purolator",
+      "service_name": "Express"
+    },
+    {
+      "id": "purolatorcourier.express-box",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box"
+    },
+    {
+      "id": "purolatorcourier.express-box-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box International"
+    },
+    {
+      "id": "purolatorcourier.express-box1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-box9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-boxUS",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box U.S."
+    },
+    {
+      "id": "purolatorcourier.express-envelope",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope"
+    },
+    {
+      "id": "purolatorcourier.express-envelope-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope International"
+    },
+    {
+      "id": "purolatorcourier.express-envelope-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope U.S."
+    },
+    {
+      "id": "purolatorcourier.express-envelope1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-envelope9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express International"
+    },
+    {
+      "id": "purolatorcourier.express-pack",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack"
+    },
+    {
+      "id": "purolatorcourier.express-pack-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack International"
+    },
+    {
+      "id": "purolatorcourier.express-pack-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack U.S."
+    },
+    {
+      "id": "purolatorcourier.express-pack1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-pack9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S."
+    },
+    {
+      "id": "purolatorcourier.express-us-1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-box1030AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Box 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-box9AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Box 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-envelope1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Envelope 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-envelope9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Envelope 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-pack1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Pack 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-pack9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Pack 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express1030AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express9AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express 9 AM"
+    },
+    {
+      "id": "purolatorcourier.ground",
+      "carrier_name": "Purolator",
+      "service_name": "Ground"
+    },
+    {
+      "id": "purolatorcourier.ground-us",
+      "carrier_name": "Purolator",
+      "service_name": "Ground U.S."
+    },
+    {
+      "id": "purolatorcourier.standard",
+      "carrier_name": "Purolator",
+      "service_name": "Standard"
+    },
+    {
+      "id": "a1delivery-514.standard",
+      "carrier_name": "A-1 Delivery",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedex-courier.2-day",
+      "carrier_name": "FedEx Courier",
+      "service_name": "2-Day"
+    },
+    {
+      "id": "fedex-courier.2-day-a-m",
+      "carrier_name": "FedEx Courier",
+      "service_name": "2-Day AM"
+    },
+    {
+      "id": "fedex-courier.express-saver",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Express Saver"
+    },
+    {
+      "id": "fedex-courier.first-overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "First Overnight"
+    },
+    {
+      "id": "fedex-courier.ground",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Ground"
+    },
+    {
+      "id": "fedex-courier.international-connect-plus",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Connect Plus"
+    },
+    {
+      "id": "fedex-courier.international-economy",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Economy"
+    },
+    {
+      "id": "fedex-courier.international-ground",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Ground"
+    },
+    {
+      "id": "fedex-courier.international-priority",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Priority"
+    },
+    {
+      "id": "fedex-courier.international-priority-express",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Priority Express"
+    },
+    {
+      "id": "fedex-courier.overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Overnight"
+    },
+    {
+      "id": "fedex-courier.priority-overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Priority Overnight"
+    },
+    {
+      "id": "fedex-courier.same-day",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "spadytransportltd-384.standard",
+      "carrier_name": "SPADY TRANSPORT LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tstapi.intermodal",
+      "carrier_name": "TST",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "tstapi.standard",
+      "carrier_name": "TST",
+      "service_name": "Standard"
+    },
+    {
+      "id": "spanalaska-544.standard",
+      "carrier_name": "Span Alaska",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sunshinelogistics-321.standard",
+      "carrier_name": "Sunshine Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yellowlogistics-525.standard",
+      "carrier_name": "Yellow Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "abffreight-455.standard",
+      "carrier_name": "ABF Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fastexact-585.standard",
+      "carrier_name": "Fast Exact",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gardewinegroupinc-424.standard",
+      "carrier_name": "Gardewine Group Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "saia.standard",
+      "carrier_name": "Saia Motor Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "roadridertransportltd-417.standard",
+      "carrier_name": "ROAD RIDER Transport Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cct.expedited",
+      "carrier_name": "CCT",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "cct.intermodal",
+      "carrier_name": "CCT",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "dependablehawaiianexpress-567.standard",
+      "carrier_name": "Dependable Hawaiian Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "interpacifictransport-457.standard",
+      "carrier_name": "Inter-Pacific Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "oneforfreight-481.standard",
+      "carrier_name": "ONE For Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "seawayexpress-431.standard",
+      "carrier_name": "Seaway Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "allpointsfreightinc-546.standard",
+      "carrier_name": "ALL POINTS FREIGHT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "groupelafrance-434.standard",
+      "carrier_name": "Groupe Lafrance",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hiltontransportation-317.standard",
+      "carrier_name": "Hilton Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "locomoteexpress-538.standard",
+      "carrier_name": "Locomote Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sendr-603.standard",
+      "carrier_name": "SENDR",
+      "service_name": "Standard"
+    },
+    {
+      "id": "airinuitcargo-539.standard",
+      "carrier_name": "Air Inuit Cargo",
+      "service_name": "Standard"
+    },
+    {
+      "id": "cmttransportinc-628.standard",
+      "carrier_name": "C M T TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "galaxyfreightline-221.standard",
+      "carrier_name": "Galaxy Freightline",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorfreight-577.standard",
+      "carrier_name": "Purolator Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mcdispatch-467.standard",
+      "carrier_name": "MC Dispatch",
+      "service_name": "Standard"
+    },
+    {
+      "id": "midlandtransport-437.standard",
+      "carrier_name": "Midland Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dukesfreightservices-617.standard",
+      "carrier_name": "Dukes Freight Services",
+      "service_name": "Standard"
+    },
+    {
+      "id": "frontiersupplychainsolutions-451.standard",
+      "carrier_name": "Frontier Supply Chain Solutions",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gls-freight.ground",
+      "carrier_name": "GLS Freight",
+      "service_name": "Ground"
+    },
+    {
+      "id": "loadkingtransportinc-385.standard",
+      "carrier_name": "LOAD KING TRANSPORT INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrossfreightcanada-559.standard",
+      "carrier_name": "Day & Ross Freight | Canada",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gillcologistics-601.standard",
+      "carrier_name": "Gillco Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "reddaway-402.standard",
+      "carrier_name": "Reddaway",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xpo.standard",
+      "carrier_name": "XPO",
+      "service_name": "Standard"
+    },
+    {
+      "id": "lodextransportltd-572.standard",
+      "carrier_name": "LODEX TRANSPORT LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "moto.standard",
+      "carrier_name": "Moto Transportation Services Corp",
+      "service_name": "Standard"
+    },
+    {
+      "id": "schneidernational-501.standard",
+      "carrier_name": "Schneider National",
+      "service_name": "Standard"
+    },
+    {
+      "id": "glsfreight-186.standard",
+      "carrier_name": "GLS Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "loadlandlogisticsinc-607.standard",
+      "carrier_name": "LOAD LAND LOGISTICS INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pacificcoastexpress-373.standard",
+      "carrier_name": "Pacific Coast Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorcourier-401.standard",
+      "carrier_name": "Purolator Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "albrighttruckinginc-454.standard",
+      "carrier_name": "Albright Trucking Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "beyondtransportation-285.standard",
+      "carrier_name": "Beyond Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dinkaenterprises-630.standard",
+      "carrier_name": "DINKA Enterprises",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gls-us.am-select-8a-12p",
+      "carrier_name": "GLS US",
+      "service_name": "AM Select 8a-12p"
+    },
+    {
+      "id": "gls-us.early-priority-overnight",
+      "carrier_name": "GLS US",
+      "service_name": "Early Priority Overnight"
+    },
+    {
+      "id": "gls-us.early-saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Early Saturday Delivery"
+    },
+    {
+      "id": "gls-us.evening-select-4p-8p",
+      "carrier_name": "GLS US",
+      "service_name": "Evening Select 4p-8p"
+    },
+    {
+      "id": "gls-us.gls-ground",
+      "carrier_name": "GLS US",
+      "service_name": "GLS Ground"
+    },
+    {
+      "id": "gls-us.noon-priority-overnight-sds–saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Noon Priority Overnight SDS – Saturday Delivery"
+    },
+    {
+      "id": "gls-us.pm-select-12p-4p",
+      "carrier_name": "GLS US",
+      "service_name": "PM Select 12p-4p"
+    },
+    {
+      "id": "gls-us.priority-overnight",
+      "carrier_name": "GLS US",
+      "service_name": "Priority Overnight"
+    },
+    {
+      "id": "gls-us.saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Saturday Delivery"
+    },
+    {
+      "id": "wsbellcartage-584.standard",
+      "carrier_name": "W.S. Bell Cartage",
+      "service_name": "Standard"
+    },
+    {
+      "id": "manitoulintransport-440.standard",
+      "carrier_name": "Manitoulin Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "arbaztransportincdbakrgtransport-415.standard",
+      "carrier_name": "ARBAZ TRANSPORT INC. DBA KRG TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "garantlogisticsltd-548.standard",
+      "carrier_name": "GARANT LOGISTICS LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "highlightmotorgroup-542.standard",
+      "carrier_name": "HIGHLIGHT MOTOR GROUP",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kaynortransport-508.standard",
+      "carrier_name": "KAYNOR TRANSPORT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rpmtransit-356.standard",
+      "carrier_name": "RPM Transit",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bestbaylogistics-532.standard",
+      "carrier_name": "BEST BAY LOGISTICS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "csatransportation-191.standard",
+      "carrier_name": "CSA Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "himmatlogistics-587.standard",
+      "carrier_name": "HIMMAT LOGISTICS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "pacificnorthwestfreightsytems-560.standard",
+      "carrier_name": "Pacific Northwest Freight Sytems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bowlinggreenlogistics-466.standard",
+      "carrier_name": "BOWLING GREEN LOGISTICS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "eknaamshippingcorp-512.standard",
+      "carrier_name": "EK NAAM SHIPPING CORP.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "frontline.standard",
+      "carrier_name": "Frontline",
+      "service_name": "Standard"
+    },
+    {
+      "id": "jmtransitinc-439.standard",
+      "carrier_name": "J.M. Transit Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "midland.econoline",
+      "carrier_name": "MidLand Transport",
+      "service_name": "Econo Line"
+    },
+    {
+      "id": "midland.standard",
+      "carrier_name": "MidLand Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mjexpress-380.standard",
+      "carrier_name": "MJ Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "robusttransportservicesltd-479.standard",
+      "carrier_name": "ROBUST TRANSPORT SERVICES LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "aonetransport2007ltd-625.standard",
+      "carrier_name": "A-One Transport (2007) Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "atlaslogistics-262.standard",
+      "carrier_name": "Atlas Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gurshanlogistics-486.standard",
+      "carrier_name": "Gurshan Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "jdtransportltd-456.standard",
+      "carrier_name": "J.D.TRANSPORT LTD",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rollsright.standard",
+      "carrier_name": "Rollsright",
+      "service_name": "Standard"
+    },
+    {
+      "id": "speedy.standard",
+      "carrier_name": "Speedy",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ettransport-337.standard",
+      "carrier_name": "E.T. Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedexfreight-154.standard",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tstcfexpresscanada-282.standard",
+      "carrier_name": "TST-CF Express | Canada",
+      "service_name": "Standard"
+    },
+    {
+      "id": "suntransportationsystems-476.standard",
+      "carrier_name": "Sun Transportation Systems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "universallogisticssolution-517.standard",
+      "carrier_name": "UNIVERSAL LOGISTICS  SOLUTION",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apex.standard",
+      "carrier_name": "Apex",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrossfreightcanada-133.standard",
+      "carrier_name": "Day & Ross  Freight | Canada",
+      "service_name": "Standard"
+    },
+    {
+      "id": "indocanadiancarriers-386.standard",
+      "carrier_name": "Indo Canadian Carriers",
+      "service_name": "Standard"
+    },
+    {
+      "id": "stitransport-250.standard",
+      "carrier_name": "STI Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "stallion.apc-priority-worldwide",
+      "carrier_name": "Stallion",
+      "service_name": "APC Priority Worldwide"
+    },
+    {
+      "id": "stallion.apc-priority-worldwide-tracked",
+      "carrier_name": "Stallion",
+      "service_name": "APC Priority Worldwide Tracked"
+    },
+    {
+      "id": "stallion.economy-usa",
+      "carrier_name": "Stallion",
+      "service_name": "Stallion Economy USA"
+    },
+    {
+      "id": "stallion.express",
+      "carrier_name": "Stallion",
+      "service_name": "Stallion Express"
+    },
+    {
+      "id": "stallion.usps-express-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Express Mail"
+    },
+    {
+      "id": "stallion.usps-first-class-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS First Class Mail"
+    },
+    {
+      "id": "stallion.usps-library-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Library Mail"
+    },
+    {
+      "id": "stallion.usps-media-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Media Mail"
+    },
+    {
+      "id": "stallion.usps-parcel-select-ground",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Parcel Select Ground"
+    },
+    {
+      "id": "stallion.usps-priority-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Priority Mail"
+    },
+    {
+      "id": "stallion.usps-priority-mail-express",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Priority Mail Express"
+    },
+    {
+      "id": "transkid.standard",
+      "carrier_name": "Transkid",
+      "service_name": "Standard"
+    },
+    {
+      "id": "versacold-438.standard",
+      "carrier_name": "VersaCold",
+      "service_name": "Standard"
+    },
+    {
+      "id": "vttranssolutionsinc-472.standard",
+      "carrier_name": "VT TRANS SOLUTIONS INC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bestwaycartage-355.standard",
+      "carrier_name": "BestWay Cartage",
+      "service_name": "Standard"
+    },
+    {
+      "id": "commanderwesttrucking-582.standard",
+      "carrier_name": "Commander West Trucking",
+      "service_name": "Standard"
+    },
+    {
+      "id": "roundthelakesmotorexpress-233.standard",
+      "carrier_name": "Round the Lakes Motor Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "trafalgarsupplyco-511.standard",
+      "carrier_name": "Trafalgar Supply Co. ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sunburytransportlimited-478.standard",
+      "carrier_name": "SUNBURY TRANSPORT LIMITED",
+      "service_name": "Standard"
+    },
+    {
+      "id": "winniefreight-549.standard",
+      "carrier_name": "Winnie Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gladiatorriggs-483.standard",
+      "carrier_name": "GLADIATOR RIGGS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hewingstransportationinc-515.standard",
+      "carrier_name": "Hewings Transportation Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kbdtransportation-420.standard",
+      "carrier_name": "KBD TRANSPORTATION ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mopallet.standard",
+      "carrier_name": "Maritime ",
+      "service_name": "Pallet Program"
+    },
+    {
+      "id": "transcomax-504.standard",
+      "carrier_name": "TranscoMAX",
+      "service_name": "Standard"
+    },
+    {
+      "id": "uniteddhillontrucklinesudtl-600.standard",
+      "carrier_name": "UNITED DHILLON TRUCK LINES (UDTL)",
+      "service_name": "Standard"
+    },
+    {
+      "id": "atripcodeliveryservice-279.standard",
+      "carrier_name": "Atripco Delivery Service",
+      "service_name": "Standard"
+    },
+    {
+      "id": "interloadtruckserviceltd-569.standard",
+      "carrier_name": "INTERLOAD TRUCK SERVICE LTD.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersley.expedited",
+      "carrier_name": "Kindersley",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "kindersley.intermodal",
+      "carrier_name": "Kindersley",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "kindersley.standard",
+      "carrier_name": "Kindersley",
+      "service_name": "Regular"
+    },
+    {
+      "id": "polarisweb.standard",
+      "carrier_name": "Polaris FPP",
+      "service_name": "Pallet Program"
+    },
+    {
+      "id": "alainnormandtransportinc-595.standard",
+      "carrier_name": "ALAIN NORMAND TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ariesgloballogisticsinc-135.standard",
+      "carrier_name": "Aries Global Logistics Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhillontransport-550.standard",
+      "carrier_name": "Dhillon Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "springcreekcarriersinc-291.standard",
+      "carrier_name": "Spring Creek Carriers Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ilclogistics-315.standard",
+      "carrier_name": "ILC Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "transontarioexpress-248.standard",
+      "carrier_name": "Trans-Ontario Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrc.accelerated",
+      "carrier_name": "YRC",
+      "service_name": "Accelerated"
+    },
+    {
+      "id": "yrc.freight-canada-to-us",
+      "carrier_name": "YRC",
+      "service_name": "Canada to US"
+    },
+    {
+      "id": "yrc.freight-dedicated-equipment",
+      "carrier_name": "YRC",
+      "service_name": "Dedicated Equipment"
+    },
+    {
+      "id": "yrc.standard",
+      "carrier_name": "YRC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrc.time-critical-by-5pm",
+      "carrier_name": "YRC",
+      "service_name": "Critical by 5 PM"
+    },
+    {
+      "id": "yrc.time-critical-by-afternoon",
+      "carrier_name": "YRC",
+      "service_name": "Critical by Afternoon"
+    },
+    {
+      "id": "yrc.time-critical-fastest-ground",
+      "carrier_name": "YRC",
+      "service_name": "Critical Fastest Ground"
+    },
+    {
+      "id": "yrc.time-critical-hour-window",
+      "carrier_name": "YRC",
+      "service_name": "Critical Hour Window"
+    },
+    {
+      "id": "b2bfreightwayinc-605.standard",
+      "carrier_name": "B2B Freightway Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "caribootruckterminalsltd-616.standard",
+      "carrier_name": "Cariboo Truck Terminals Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "eximlogisticsinc-421.standard",
+      "carrier_name": "ExIm Logistics Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ics.ground",
+      "carrier_name": "ICS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "ics.next-day",
+      "carrier_name": "ICS",
+      "service_name": "Next day"
+    },
+    {
+      "id": "tstcfexpresssaia-185.standard",
+      "carrier_name": "TST-CF Express | SAIA",
+      "service_name": "Standard"
+    },
+    {
+      "id": "comoxpacificexpress-257.standard",
+      "carrier_name": "Comox Pacific Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "galaxyfreightlineinc-183.standard",
+      "carrier_name": "Galaxy Freightline Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "samoyedtransport-602.standard",
+      "carrier_name": "Samoyed Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sprinterdeliveryltd-522.standard",
+      "carrier_name": "Sprinter Delivery Ltd.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gtboltoninc-491.standard",
+      "carrier_name": "G.T. BOLTON INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "polarisdirect.standard",
+      "carrier_name": "Polaris",
+      "service_name": "Direct"
+    },
+    {
+      "id": "ups.3day-select",
+      "carrier_name": "UPS",
+      "service_name": "3 Day Select"
+    },
+    {
+      "id": "ups.expedited",
+      "carrier_name": "UPS",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "ups.express",
+      "carrier_name": "UPS",
+      "service_name": "Express"
+    },
+    {
+      "id": "ups.express-early",
+      "carrier_name": "UPS",
+      "service_name": "Express Early"
+    },
+    {
+      "id": "ups.express-saver",
+      "carrier_name": "UPS",
+      "service_name": "Express Saver"
+    },
+    {
+      "id": "ups.ground",
+      "carrier_name": "UPS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "ups.standard",
+      "carrier_name": "UPS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ups.worldwide-expedited",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Expedited"
+    },
+    {
+      "id": "ups.worldwide-express",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express"
+    },
+    {
+      "id": "ups.worldwide-express-plus",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express Plus"
+    },
+    {
+      "id": "ups.worldwide-express-saver",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express Saver"
+    },
+    {
+      "id": "argustransportcanada-463.standard",
+      "carrier_name": "ARGUS Transport Canada",
+      "service_name": "Standard"
+    },
+    {
+      "id": "crosscountryfreightsolutions-571.standard",
+      "carrier_name": "CrossCountry Freight Solutions",
+      "service_name": "Standard"
+    },
+    {
+      "id": "geysertransportltd-606.standard",
+      "carrier_name": "Geyser Transport Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "greysertransportltd-606.standard",
+      "carrier_name": "Greyser Transport Ltd",
+      "service_name": "Standard"
+    },
+    {
+      "id": "steelestransportationgroup-580.standard",
+      "carrier_name": "Steele's Transportation Group",
+      "service_name": "Standard"
+    },
+    {
+      "id": "titantranslineinc-450.standard",
+      "carrier_name": "Titan Transline Inc.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "2stopdelivery-393.standard",
+      "carrier_name": "2 STOP DELIVERY",
+      "service_name": "Standard"
+    },
+    {
+      "id": "aduiepyleinc-589.standard",
+      "carrier_name": "A Duie Pyle, Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "centralislanddistributors-554.standard",
+      "carrier_name": "Central Island Distributors",
+      "service_name": "Standard"
+    },
+    {
+      "id": "minimaxexpress-418.standard",
+      "carrier_name": "Minimax Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrosscommerce-266.standard",
+      "carrier_name": "Day & Ross Commerce",
+      "service_name": "Standard"
+    },
+    {
+      "id": "highlightmotorgroup-500.standard",
+      "carrier_name": "HIGHLIGHT MOTOR GROUP",
+      "service_name": "Standard"
+    },
+    {
+      "id": "internordtransportation-461.standard",
+      "carrier_name": "Inter-Nord Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "westmancourier-419.standard",
+      "carrier_name": "Westman Courier",
+      "service_name": "Standard"
+    }
+  ],
+  "DEV_SERVICES": [
+    {
+      "id": "kindersley-freight.domestic-expedited",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Expedited"
+    },
+    {
+      "id": "kindersley-freight.domestic-rail",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Rail"
+    },
+    {
+      "id": "kindersley-freight.domestic-road",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Domestic Road"
+    },
+    {
+      "id": "kindersley-freight.transborder",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Transborder"
+    },
+    {
+      "id": "newpennmotorexpress-445.standard",
+      "carrier_name": "New Penn Motor Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "a10cD2MfJjiOCcRejjgv3cHMyRcRBhE3.standard",
+      "carrier_name": "Bill's Spot Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apps.intermodal",
+      "carrier_name": "APPS",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "apps.standard",
+      "carrier_name": "APPS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrosscommerce-266.standard",
+      "carrier_name": "Day & Ross Commerce",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedex-courier.2-day",
+      "carrier_name": "FedEx Courier",
+      "service_name": "2-Day"
+    },
+    {
+      "id": "fedex-courier.2-day-a-m",
+      "carrier_name": "FedEx Courier",
+      "service_name": "2-Day AM"
+    },
+    {
+      "id": "fedex-courier.express-saver",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Express Saver"
+    },
+    {
+      "id": "fedex-courier.first-overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "First Overnight"
+    },
+    {
+      "id": "fedex-courier.ground",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Ground"
+    },
+    {
+      "id": "fedex-courier.international-connect-plus",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Connect Plus"
+    },
+    {
+      "id": "fedex-courier.international-economy",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Economy"
+    },
+    {
+      "id": "fedex-courier.international-ground",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Ground"
+    },
+    {
+      "id": "fedex-courier.international-priority",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Priority"
+    },
+    {
+      "id": "fedex-courier.international-priority-express",
+      "carrier_name": "FedEx Courier",
+      "service_name": "International Priority Express"
+    },
+    {
+      "id": "fedex-courier.overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Overnight"
+    },
+    {
+      "id": "fedex-courier.priority-overnight",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Priority Overnight"
+    },
+    {
+      "id": "fedex-courier.same-day",
+      "carrier_name": "FedEx Courier",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "fedexfreight-154.standard",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gsm.air-skip",
+      "carrier_name": "GTA GSM",
+      "service_name": "AirSkip"
+    },
+    {
+      "id": "gsm.air-skip-eco",
+      "carrier_name": "GTA GSM",
+      "service_name": "AirSkipEco"
+    },
+    {
+      "id": "gsm.air-skip-plus",
+      "carrier_name": "GTA GSM",
+      "service_name": "AirSkip+"
+    },
+    {
+      "id": "gsm.armed-secure-air",
+      "carrier_name": "GTA GSM",
+      "service_name": "Armed Secure Air"
+    },
+    {
+      "id": "gsm.armed-secure-ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Armed Secure Ground"
+    },
+    {
+      "id": "gsm.ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Ground"
+    },
+    {
+      "id": "gsm.secure-air",
+      "carrier_name": "GTA GSM",
+      "service_name": "Secure Air"
+    },
+    {
+      "id": "gsm.secure-ground",
+      "carrier_name": "GTA GSM",
+      "service_name": "Secure Ground"
+    },
+    {
+      "id": "gsm.zone-skip",
+      "carrier_name": "GTA GSM",
+      "service_name": "ZoneSkip"
+    },
+    {
+      "id": "gsm.zone-skip-plus",
+      "carrier_name": "GTA GSM",
+      "service_name": "ZoneSkip+"
+    },
+    {
+      "id": "dhlexpress.domestic-express",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express"
+    },
+    {
+      "id": "dhlexpress.domestic-express1030am",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express 10:30"
+    },
+    {
+      "id": "dhlexpress.domestic-express9am",
+      "carrier_name": "DHL Express",
+      "service_name": "Domestic Express 9:00"
+    },
+    {
+      "id": "dhlexpress.economy-select",
+      "carrier_name": "DHL Express",
+      "service_name": "Economy Select"
+    },
+    {
+      "id": "dhlexpress.express-easy",
+      "carrier_name": "DHL Express",
+      "service_name": "Express Easy"
+    },
+    {
+      "id": "dhlexpress.express-worldwide",
+      "carrier_name": "DHL Express",
+      "service_name": "Express Worldwide"
+    },
+    {
+      "id": "dhlexpress.express1030am",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 10:30"
+    },
+    {
+      "id": "dhlexpress.express12pm",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 12:00"
+    },
+    {
+      "id": "dhlexpress.express9am",
+      "carrier_name": "DHL Express",
+      "service_name": "Express 9:00"
+    },
+    {
+      "id": "nin.next-day",
+      "carrier_name": "NIN",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "nin.same-day",
+      "carrier_name": "NIN",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "one.standard",
+      "carrier_name": "ONE Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "rollsright.standard",
+      "carrier_name": "Rollsright",
+      "service_name": "Standard"
+    },
+    {
+      "id": "stallion.apc-priority-worldwide",
+      "carrier_name": "Stallion",
+      "service_name": "APC Priority Worldwide"
+    },
+    {
+      "id": "stallion.apc-priority-worldwide-tracked",
+      "carrier_name": "Stallion",
+      "service_name": "APC Priority Worldwide Tracked"
+    },
+    {
+      "id": "stallion.economy-usa",
+      "carrier_name": "Stallion",
+      "service_name": "Stallion Economy USA"
+    },
+    {
+      "id": "stallion.express",
+      "carrier_name": "Stallion",
+      "service_name": "Stallion Express"
+    },
+    {
+      "id": "stallion.usps-express-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Express Mail"
+    },
+    {
+      "id": "stallion.usps-first-class-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS First Class Mail"
+    },
+    {
+      "id": "stallion.usps-library-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Library Mail"
+    },
+    {
+      "id": "stallion.usps-media-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Media Mail"
+    },
+    {
+      "id": "stallion.usps-parcel-select-ground",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Parcel Select Ground"
+    },
+    {
+      "id": "stallion.usps-priority-mail",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Priority Mail"
+    },
+    {
+      "id": "stallion.usps-priority-mail-express",
+      "carrier_name": "Stallion",
+      "service_name": "USPS Priority Mail Express"
+    },
+    {
+      "id": "wuPUFbL2xJpG1vd4jHDl0vaXiXZ99WO4.standard",
+      "carrier_name": "test manager add",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apexmotorexpress-258.standard",
+      "carrier_name": "Apex Motor Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bettertrucks.ddu",
+      "carrier_name": "Better Trucks",
+      "service_name": "DDU"
+    },
+    {
+      "id": "bettertrucks.express",
+      "carrier_name": "Better Trucks",
+      "service_name": "Express"
+    },
+    {
+      "id": "bettertrucks.next_day",
+      "carrier_name": "Better Trucks",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "bettertrucks.same_day",
+      "carrier_name": "Better Trucks",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "IQ1rjQyWY8EflOBKVyqGM1syqer1O65V.standard",
+      "carrier_name": "Carrier Ben",
+      "service_name": "Standard"
+    },
+    {
+      "id": "kindersley.expedited",
+      "carrier_name": "Kindersley",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "kindersley.intermodal",
+      "carrier_name": "Kindersley",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "kindersley.standard",
+      "carrier_name": "Kindersley",
+      "service_name": "Regular"
+    },
+    {
+      "id": "speedy.standard",
+      "carrier_name": "Speedy",
+      "service_name": "Standard"
+    },
+    {
+      "id": "vitran.maxx",
+      "carrier_name": "Vitran",
+      "service_name": "Maxx"
+    },
+    {
+      "id": "vitran.priority",
+      "carrier_name": "Vitran",
+      "service_name": "Priority"
+    },
+    {
+      "id": "vitran.regular",
+      "carrier_name": "Vitran",
+      "service_name": "Regular"
+    },
+    {
+      "id": "c5itKPJ6v6s4cmHEhjMDbbp9XD5lKoPR.standard",
+      "carrier_name": "Bill's Truck Shop",
+      "service_name": "Standard"
+    },
+    {
+      "id": "caledoncouriers-294.standard",
+      "carrier_name": "Caledon Couriers",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayton-freight.standard",
+      "carrier_name": "Dayton Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dj9Lv4FUhkBIG7tdKiWh4n3U2lP2Drc5.standard",
+      "carrier_name": "testNewCarrierGar",
+      "service_name": "Standard"
+    },
+    {
+      "id": "hiway.standard",
+      "carrier_name": "Hi-Way9",
+      "service_name": "Standard"
+    },
+    {
+      "id": "boxknight.next-day",
+      "carrier_name": "BoxKnight",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "boxknight.sameday",
+      "carrier_name": "BoxKnight",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "cct.expedited",
+      "carrier_name": "CCT",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "cct.intermodal",
+      "carrier_name": "CCT",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "peglobal-511.standard",
+      "carrier_name": "PE Global",
+      "service_name": "Standard"
+    },
+    {
+      "id": "polarisdirect.standard",
+      "carrier_name": "Polaris",
+      "service_name": "Direct"
+    },
+    {
+      "id": "billatransport-203.standard",
+      "carrier_name": "Billa Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorfreight-151.standard",
+      "carrier_name": "Purolator Freight ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "wce.standard",
+      "carrier_name": "WCE",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "ajWA9sU9dV6U6oSB5GrokBvlzfV2RRf7.standard",
+      "carrier_name": "Garima-test",
+      "service_name": "Standard"
+    },
+    {
+      "id": "c19h151C0I4Sdnp3Mqt0jRLxjTcNtksA.standard",
+      "carrier_name": "BinduCarrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "FzXhDtSYDgMYP97Zi28GgU4j8QNXBllS.standard",
+      "carrier_name": "Apex-SPOT",
+      "service_name": "Standard"
+    },
+    {
+      "id": "holland.guaranteed-330-pm",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by 3:30 PM"
+    },
+    {
+      "id": "holland.guaranteed-9-am",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by 9:00 AM"
+    },
+    {
+      "id": "holland.guaranteed-day",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Day"
+    },
+    {
+      "id": "holland.guaranteed-hour",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Hour"
+    },
+    {
+      "id": "holland.guaranteed-multi-hour",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Multi Hour"
+    },
+    {
+      "id": "holland.guaranteed-noon",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed by Noon"
+    },
+    {
+      "id": "holland.guaranteed-weekend",
+      "carrier_name": "Holland Freight",
+      "service_name": "Guaranteed Weekend"
+    },
+    {
+      "id": "holland.inter-regional",
+      "carrier_name": "Holland Freight",
+      "service_name": "Inter-Regional"
+    },
+    {
+      "id": "holland.interline",
+      "carrier_name": "Holland Freight",
+      "service_name": "Interline"
+    },
+    {
+      "id": "holland.regional",
+      "carrier_name": "Holland Freight",
+      "service_name": "Regional"
+    },
+    {
+      "id": "LfT69HBpfJrjS9wv0tkFVylVxcMwWIVt.standard",
+      "carrier_name": "test create 2",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mopallet.standard",
+      "carrier_name": "Maritime ",
+      "service_name": "Pallet Program"
+    },
+    {
+      "id": "bgxtransportation-361.standard",
+      "carrier_name": "BGX Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ei8AJgRFI3Xslob8UmFawLq71jhlKyZX.standard",
+      "carrier_name": "Service Test",
+      "service_name": "Standard"
+    },
+    {
+      "id": "vankam.standard",
+      "carrier_name": "Vankam",
+      "service_name": "Standard"
+    },
+    {
+      "id": "AbqB0FuehDpOtTxHzhhEvBs8CRJ44Z2I.standard",
+      "carrier_name": "Manager Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "bbWZeWwm92b0eyQBYnRNT5PUJb7vslCY.standard",
+      "carrier_name": "1Manager",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhl-ecomm.packet-international",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Package International"
+    },
+    {
+      "id": "dhl-ecomm.parcel-expedited",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Expedited"
+    },
+    {
+      "id": "dhl-ecomm.parcel-expedited-max",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Expedited Max"
+    },
+    {
+      "id": "dhl-ecomm.parcel-ground",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel Ground"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct-priority",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct Priority"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-direct-standard",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Direct Standard"
+    },
+    {
+      "id": "dhl-ecomm.parcel-international-standard",
+      "carrier_name": "DHL eCommerce",
+      "service_name": "Parcel International Standard"
+    },
+    {
+      "id": "saia.standard",
+      "carrier_name": "Saia Motor Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "Mg5oX7RWPCrENCdFkqaijO3NI0qKLFPt.standard",
+      "carrier_name": "2garima",
+      "service_name": "Standard"
+    },
+    {
+      "id": "moto.standard",
+      "carrier_name": "Moto Transportation Services Corp",
+      "service_name": "Standard"
+    },
+    {
+      "id": "2vlSmNNDnF6OWQFjUTFPlwLpTv0RkgXp.standard",
+      "carrier_name": "New Carrier1",
+      "service_name": "Standard"
+    },
+    {
+      "id": "6D24l95xtm4jFC550GYo0tLEBrjgavVS.standard",
+      "carrier_name": "Admin Added carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ab-courier.canada-1030am",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada 10:30am"
+    },
+    {
+      "id": "ab-courier.canada-930am",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada 9:30am"
+    },
+    {
+      "id": "ab-courier.canada-ground",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada Ground"
+    },
+    {
+      "id": "ab-courier.canada-overnight",
+      "carrier_name": "A&B Courier",
+      "service_name": "Canada Overnight"
+    },
+    {
+      "id": "ab-courier.direct",
+      "carrier_name": "A&B Courier",
+      "service_name": "Direct"
+    },
+    {
+      "id": "ab-courier.four-hour",
+      "carrier_name": "A&B Courier",
+      "service_name": "Four Hour"
+    },
+    {
+      "id": "ab-courier.rush",
+      "carrier_name": "A&B Courier",
+      "service_name": "Rush"
+    },
+    {
+      "id": "ab-courier.sameday",
+      "carrier_name": "A&B Courier",
+      "service_name": "Sameday"
+    },
+    {
+      "id": "ab-courier.usa-ground",
+      "carrier_name": "A&B Courier",
+      "service_name": "USA Ground"
+    },
+    {
+      "id": "daynross.cs",
+      "carrier_name": "Day & Ross",
+      "service_name": "CS"
+    },
+    {
+      "id": "daynross.domestic-standard",
+      "carrier_name": "Day & Ross",
+      "service_name": "Domestic Standard"
+    },
+    {
+      "id": "daynross.transborder-standard",
+      "carrier_name": "Day & Ross",
+      "service_name": "Transborder Standard"
+    },
+    {
+      "id": "dayrossrlc-132.standard",
+      "carrier_name": "Day & Ross RLC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "LtViz90ze09z34gcXmBbnFhSSqvvO6h5.standard",
+      "carrier_name": "FastfrateTest",
+      "service_name": "Standard"
+    },
+    {
+      "id": "B6lmGiW6bT5uYz0ceJwoqduC0QRf51cr.standard",
+      "carrier_name": "1NewDinesh",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedex.economy",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Economy"
+    },
+    {
+      "id": "fedex.standard",
+      "carrier_name": "FedEx Freight",
+      "service_name": "Priority"
+    },
+    {
+      "id": "VwSa0UuckhcLkEzVoCSkhPJoTygfzeIk.standard",
+      "carrier_name": "Insurance Testing Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "YlhNxO31X2UtvtKauwVLdIo4skgYEtDi.standard",
+      "carrier_name": "Dino Trucking Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "anq7q2st2UWtnj2WPWqXtgIgaUa4AZF4.standard",
+      "carrier_name": "Air lines ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dhlcanada-230.standard",
+      "carrier_name": "DHL CANADA",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fedexexpress-272.standard",
+      "carrier_name": "FedEx Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "KQfppq3g1UUR3BabBSUvQko4MWDUPnul.standard",
+      "carrier_name": "FC Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "speedytransport-153.standard",
+      "carrier_name": "Speedy Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tstapi.intermodal",
+      "carrier_name": "TST",
+      "service_name": "Intermodal"
+    },
+    {
+      "id": "tstapi.standard",
+      "carrier_name": "TST",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-direct",
+      "carrier_name": "A&B Courier",
+      "service_name": "Direct (Pallet)"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-rush",
+      "carrier_name": "A&B Courier",
+      "service_name": "Rush (Pallet)"
+    },
+    {
+      "id": "ab-courier-ltl.ltl-sameday",
+      "carrier_name": "A&B Courier",
+      "service_name": "Sameday (Pallet)"
+    },
+    {
+      "id": "accordtransportation-176.standard",
+      "carrier_name": "Accord Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "am0cHEYPS0pZbXDbVXUM6opDv3c4YyxP.standard",
+      "carrier_name": "testGar",
+      "service_name": "Standard"
+    },
+    {
+      "id": "purolatorcourier-401.standard",
+      "carrier_name": "Purolator Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "swyft.nextday",
+      "carrier_name": "Swyft",
+      "service_name": "Next Day"
+    },
+    {
+      "id": "swyft.sameday",
+      "carrier_name": "Swyft",
+      "service_name": "Same Day"
+    },
+    {
+      "id": "upscourier-162.standard",
+      "carrier_name": "UPS Courier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "2ya9w4n9GgNbqWlBgKcWro3WYkm0SI2d.standard",
+      "carrier_name": "SD Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "csa.standard",
+      "carrier_name": "CSA",
+      "service_name": "Standard"
+    },
+    {
+      "id": "newpenn.standard",
+      "carrier_name": "New Penn",
+      "service_name": "Standard"
+    },
+    {
+      "id": "spring-gds.spring-direct",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Direct"
+    },
+    {
+      "id": "spring-gds.spring-gateway-parcel",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Gateway Parcel"
+    },
+    {
+      "id": "spring-gds.spring-packet-plus",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Plus Registered"
+    },
+    {
+      "id": "spring-gds.spring-packet-tracked",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Tracked"
+    },
+    {
+      "id": "spring-gds.spring-packet-untracked",
+      "carrier_name": "Spring GDS",
+      "service_name": "Spring Packet Untracked"
+    },
+    {
+      "id": "TXbrc3AuAEXSJ9uQnT40gRG0zk41qTml.standard",
+      "carrier_name": "1Dinesh carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "6AS1YHCOu0JmUMnb0kEHBAS1blnvdi3C.standard",
+      "carrier_name": "SushmaCarrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gls-us.am-select-8a-12p",
+      "carrier_name": "GLS US",
+      "service_name": "AM Select 8a-12p"
+    },
+    {
+      "id": "gls-us.early-priority-overnight",
+      "carrier_name": "GLS US",
+      "service_name": "Early Priority Overnight"
+    },
+    {
+      "id": "gls-us.early-saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Early Saturday Delivery"
+    },
+    {
+      "id": "gls-us.evening-select-4p-8p",
+      "carrier_name": "GLS US",
+      "service_name": "Evening Select 4p-8p"
+    },
+    {
+      "id": "gls-us.gls-ground",
+      "carrier_name": "GLS US",
+      "service_name": "GLS Ground"
+    },
+    {
+      "id": "gls-us.noon-priority-overnight-sds–saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Noon Priority Overnight SDS – Saturday Delivery"
+    },
+    {
+      "id": "gls-us.pm-select-12p-4p",
+      "carrier_name": "GLS US",
+      "service_name": "PM Select 12p-4p"
+    },
+    {
+      "id": "gls-us.priority-overnight",
+      "carrier_name": "GLS US",
+      "service_name": "Priority Overnight"
+    },
+    {
+      "id": "gls-us.saturday-delivery",
+      "carrier_name": "GLS US",
+      "service_name": "Saturday Delivery"
+    },
+    {
+      "id": "6XTleMYOSAZrdGo5dkg0AB2FS3E35oMF.standard",
+      "carrier_name": "Show Demo",
+      "service_name": "Standard"
+    },
+    {
+      "id": "abcourier-480.standard",
+      "carrier_name": "A&B Courier (Manual)",
+      "service_name": "Standard"
+    },
+    {
+      "id": "allspeed-432.standard",
+      "carrier_name": "All Speed",
+      "service_name": "Standard"
+    },
+    {
+      "id": "KqwXT5YZbXOvt0PXziMUxkj3J6V1pTsQ.standard",
+      "carrier_name": "SushmaCarrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-entrance",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Entrance - 2 Person"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-room-of-choice",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice - 2 Person"
+    },
+    {
+      "id": "sameday.2-man-delivery-to-room-of-choice-with-debris-removal",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Two-person delivery to room of choice with debris removal"
+    },
+    {
+      "id": "sameday.dayr-ecom-urgent-pac",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "eCommerce Urgent Pak"
+    },
+    {
+      "id": "sameday.delivery-to-entrance",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Entrance"
+    },
+    {
+      "id": "sameday.delivery-to-room-of-choice",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice"
+    },
+    {
+      "id": "sameday.delivery-to-room-of-choice-with-debris-removal",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Delivery to Room of Choice with Debris Removal"
+    },
+    {
+      "id": "sameday.ground-daynross-road",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Ground - Road"
+    },
+    {
+      "id": "sameday.next-day-before-5pm",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery by 5 PM"
+    },
+    {
+      "id": "sameday.next-day-before-9am",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery by 9 AM"
+    },
+    {
+      "id": "sameday.next-day-delivery-before-noon",
+      "carrier_name": "Day & Ross Commerce Solutions",
+      "service_name": "Next Day Delivery Before Noon"
+    },
+    {
+      "id": "transkid.standard",
+      "carrier_name": "Transkid",
+      "service_name": "Standard"
+    },
+    {
+      "id": "37SyVWjCgJxqehNHTdBaFhz1MQxKK0Vd.standard",
+      "carrier_name": "2New Spot carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "atlantistransport-347.standard",
+      "carrier_name": "Atlantis Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "excel-transport.standard",
+      "carrier_name": "Excel Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fleet-optics.standard",
+      "carrier_name": "Fleet Optics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gardewine.standard",
+      "carrier_name": "Gardewine",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ics.ground",
+      "carrier_name": "ICS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "ics.next-day",
+      "carrier_name": "ICS",
+      "service_name": "Next day"
+    },
+    {
+      "id": "usps.first-class",
+      "carrier_name": "USPS",
+      "service_name": "First Class"
+    },
+    {
+      "id": "usps.ground-advantage",
+      "carrier_name": "USPS",
+      "service_name": "Ground Advantage"
+    },
+    {
+      "id": "usps.parcel-select-ground",
+      "carrier_name": "USPS",
+      "service_name": "Parcel Select Ground"
+    },
+    {
+      "id": "usps.priority-mail",
+      "carrier_name": "USPS",
+      "service_name": "Priority Mail"
+    },
+    {
+      "id": "usps.priority-mail-express",
+      "carrier_name": "USPS",
+      "service_name": "Priority Mail Express"
+    },
+    {
+      "id": "ups.3day-select",
+      "carrier_name": "UPS",
+      "service_name": "3 Day Select"
+    },
+    {
+      "id": "ups.expedited",
+      "carrier_name": "UPS",
+      "service_name": "Expedited"
+    },
+    {
+      "id": "ups.express",
+      "carrier_name": "UPS",
+      "service_name": "Express"
+    },
+    {
+      "id": "ups.express-early",
+      "carrier_name": "UPS",
+      "service_name": "Express Early"
+    },
+    {
+      "id": "ups.express-saver",
+      "carrier_name": "UPS",
+      "service_name": "Express Saver"
+    },
+    {
+      "id": "ups.ground",
+      "carrier_name": "UPS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "ups.standard",
+      "carrier_name": "UPS",
+      "service_name": "Standard"
+    },
+    {
+      "id": "ups.worldwide-expedited",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Expedited"
+    },
+    {
+      "id": "ups.worldwide-express",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express"
+    },
+    {
+      "id": "ups.worldwide-express-plus",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express Plus"
+    },
+    {
+      "id": "ups.worldwide-express-saver",
+      "carrier_name": "UPS",
+      "service_name": "Worldwide Express Saver"
+    },
+    {
+      "id": "airpro-255.standard",
+      "carrier_name": "Air Pro",
+      "service_name": "Standard"
+    },
+    {
+      "id": "apex.standard",
+      "carrier_name": "Apex",
+      "service_name": "Standard"
+    },
+    {
+      "id": "frontline.standard",
+      "carrier_name": "Frontline",
+      "service_name": "Standard"
+    },
+    {
+      "id": "nationex.standard",
+      "carrier_name": "Nationex",
+      "service_name": "Standard"
+    },
+    {
+      "id": "qM4cPFVXO20tNUz8fuU2bZCd6s0a6oKE.standard",
+      "carrier_name": "GL Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "swiftdeliverysystems-268.standard",
+      "carrier_name": "Swift Delivery Systems",
+      "service_name": "Standard"
+    },
+    {
+      "id": "comox.standard",
+      "carrier_name": "Comox Pacific Express",
+      "service_name": "Standard"
+    },
+    {
+      "id": "h9d2M32kjQDeB0GldPN0AMYvhuEXI45c.standard",
+      "carrier_name": "New2New carrier ",
+      "service_name": "Standard"
+    },
+    {
+      "id": "maritime.dry",
+      "carrier_name": "Maritime",
+      "service_name": "Dry"
+    },
+    {
+      "id": "maritime.frozen",
+      "carrier_name": "Maritime",
+      "service_name": "Reefer"
+    },
+    {
+      "id": "maritime.heat",
+      "carrier_name": "Maritime",
+      "service_name": "Heat"
+    },
+    {
+      "id": "overland.standard",
+      "carrier_name": "Overland",
+      "service_name": "Standard"
+    },
+    {
+      "id": "manitoulintransport-440.standard",
+      "carrier_name": "Manitoulin Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-guarnteed",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight Guaranteed"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-ltl",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight LTL"
+    },
+    {
+      "id": "tforcefreight.tforcefreight-standard",
+      "carrier_name": "TForceFreight",
+      "service_name": "TForceFreight Standard"
+    },
+    {
+      "id": "V44U22d1DwvXrhpvW7UtPrZ4GQQ6x6Hb.standard",
+      "carrier_name": "11Manager Carriers",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrc.accelerated",
+      "carrier_name": "YRC",
+      "service_name": "Accelerated"
+    },
+    {
+      "id": "yrc.freight-canada-to-us",
+      "carrier_name": "YRC",
+      "service_name": "Canada to US"
+    },
+    {
+      "id": "yrc.freight-dedicated-equipment",
+      "carrier_name": "YRC",
+      "service_name": "Dedicated Equipment"
+    },
+    {
+      "id": "yrc.standard",
+      "carrier_name": "YRC",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrc.time-critical-by-5pm",
+      "carrier_name": "YRC",
+      "service_name": "Critical by 5 PM"
+    },
+    {
+      "id": "yrc.time-critical-by-afternoon",
+      "carrier_name": "YRC",
+      "service_name": "Critical by Afternoon"
+    },
+    {
+      "id": "yrc.time-critical-fastest-ground",
+      "carrier_name": "YRC",
+      "service_name": "Critical Fastest Ground"
+    },
+    {
+      "id": "yrc.time-critical-hour-window",
+      "carrier_name": "YRC",
+      "service_name": "Critical Hour Window"
+    },
+    {
+      "id": "Zs8TafpKGZ0fx9utJ42E4ZFyLtoRUmzE.standard",
+      "carrier_name": "BinduTestCarrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "abffreight-455.standard",
+      "carrier_name": "ABF Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "dayrosscdn-133.standard",
+      "carrier_name": "Day & Ross CDN",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gMS33dZBLDmtyw0ileP8b0wxytNPUNEe.standard",
+      "carrier_name": "SPOT Polaris",
+      "service_name": "Standard"
+    },
+    {
+      "id": "intelcom.standard",
+      "carrier_name": "Intelcom",
+      "service_name": "Standard"
+    },
+    {
+      "id": "maritimeontario-267.standard",
+      "carrier_name": "Maritime-Ontario",
+      "service_name": "Standard"
+    },
+    {
+      "id": "minimax.standard",
+      "carrier_name": "Minimax",
+      "service_name": "Standard"
+    },
+    {
+      "id": "allmodes-147.standard",
+      "carrier_name": "All Modes",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gls-freight.ground",
+      "carrier_name": "GLS Freight",
+      "service_name": "Ground"
+    },
+    {
+      "id": "kindersley-courier.standard",
+      "carrier_name": "Kindersley Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "LfuLpu4OaMgNiVnBFYbNUXxiAyY66z3m.standard",
+      "carrier_name": "Joshuas super advanced and not sketchy at all spot carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "midland.econoline",
+      "carrier_name": "MidLand Transport",
+      "service_name": "Econo Line"
+    },
+    {
+      "id": "midland.reefer",
+      "carrier_name": "MidLand Transport",
+      "service_name": "Reefer"
+    },
+    {
+      "id": "midland.standard",
+      "carrier_name": "MidLand Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "TKzEkXVCaQIkGU0SqHyix6Lujv1YiCaR.standard",
+      "carrier_name": "Test carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "1lFVuiEgI85Be3BmNH9Jc8QKe5DEDVs0.standard",
+      "carrier_name": "vicky",
+      "service_name": "Standard"
+    },
+    {
+      "id": "gY2Ah4O53ACmkb6D75rHLg6eMfzpsIpw.standard",
+      "carrier_name": "Flex transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "morneau.standard",
+      "carrier_name": "Morneau Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "4TBSrW3F8aUzohICK0A0XH2mk25Aipdx.standard",
+      "carrier_name": "Bill Cartage",
+      "service_name": "Standard"
+    },
+    {
+      "id": "nishantransportinc-423.standard",
+      "carrier_name": "NISHAN TRANSPORT INC.",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xpologistics-265.standard",
+      "carrier_name": "XPO Logistics",
+      "service_name": "Standard"
+    },
+    {
+      "id": "Fqrdds8xTJcw2gopMEKjgdNR0jTkxxVm.standard",
+      "carrier_name": "gartest2Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "mBbc7RwNE6CPvx22XiDZ50kdsC2fLNEF.standard",
+      "carrier_name": "CSS Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "courrierplus-494.standard",
+      "carrier_name": "Courrier Plus",
+      "service_name": "Standard"
+    },
+    {
+      "id": "loomis-express.express-0900",
+      "carrier_name": "Loomis",
+      "service_name": "Express 9:00"
+    },
+    {
+      "id": "loomis-express.express-1200",
+      "carrier_name": "Loomis",
+      "service_name": "Express 12:00"
+    },
+    {
+      "id": "loomis-express.express-1800",
+      "carrier_name": "Loomis",
+      "service_name": "Express 18:00"
+    },
+    {
+      "id": "loomis-express.ground",
+      "carrier_name": "Loomis",
+      "service_name": "Ground"
+    },
+    {
+      "id": "purolatorfreight.standard",
+      "carrier_name": "Purolator Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "csatransportation-191.standard",
+      "carrier_name": "CSA Transportation",
+      "service_name": "Standard"
+    },
+    {
+      "id": "XiX2uCQlUYTCn4Mi5z3APT4Mi2Xn2x3a.standard",
+      "carrier_name": "New GLS Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "fastfrate.express",
+      "carrier_name": "Fastfrate",
+      "service_name": "Express"
+    },
+    {
+      "id": "fastfrate.standard",
+      "carrier_name": "Fastfrate",
+      "service_name": "Standard"
+    },
+    {
+      "id": "martinroytransport-310.standard",
+      "carrier_name": "Martin Roy Transport",
+      "service_name": "Standard"
+    },
+    {
+      "id": "reddaway.guaranteed-3pm",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 3:30 PM"
+    },
+    {
+      "id": "reddaway.guaranteed-9am",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 9 AM"
+    },
+    {
+      "id": "reddaway.guaranteed-noon",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 12:00 PM (noon)"
+    },
+    {
+      "id": "reddaway.guaranteed-weekend",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Weekend"
+    },
+    {
+      "id": "reddaway.guarenteed-9am",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 9 AM"
+    },
+    {
+      "id": "reddaway.guarenteed-noon",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Delivery Before 12:00 PM (noon)"
+    },
+    {
+      "id": "reddaway.interline",
+      "carrier_name": "Reddaway",
+      "service_name": "Interline Delivery"
+    },
+    {
+      "id": "reddaway.multi-hour-window",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Multi-Hour Window"
+    },
+    {
+      "id": "reddaway.regional-delivery",
+      "carrier_name": "Reddaway",
+      "service_name": "Regional Delivery"
+    },
+    {
+      "id": "reddaway.single-hour-window",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Single-hour Window"
+    },
+    {
+      "id": "reddaway.single-or-multi-day",
+      "carrier_name": "Reddaway",
+      "service_name": "Guaranteed Window - Single or Multi-day Window"
+    },
+    {
+      "id": "reddaway.standard",
+      "carrier_name": "Reddaway",
+      "service_name": "Standard"
+    },
+    {
+      "id": "xpo.standard",
+      "carrier_name": "XPO",
+      "service_name": "Standard"
+    },
+    {
+      "id": "yrcfreight-330.standard",
+      "carrier_name": "YRC Freight",
+      "service_name": "Standard"
+    },
+    {
+      "id": "amatransinc-251.standard",
+      "carrier_name": "AMA Trans Inc",
+      "service_name": "Standard"
+    },
+    {
+      "id": "canadapost.domestic",
+      "carrier_name": "Canada Post",
+      "service_name": "Domestic"
+    },
+    {
+      "id": "canadapost.expedited-parcel",
+      "carrier_name": "Canada Post",
+      "service_name": "Expedited Parcel"
+    },
+    {
+      "id": "canadapost.expedited-parcel-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Expedited Parcel USA"
+    },
+    {
+      "id": "canadapost.international",
+      "carrier_name": "Canada Post",
+      "service_name": "International"
+    },
+    {
+      "id": "canadapost.international-parcel-air",
+      "carrier_name": "Canada Post",
+      "service_name": "International Parcel Air"
+    },
+    {
+      "id": "canadapost.international-parcel-surface",
+      "carrier_name": "Canada Post",
+      "service_name": "International Parcel Surface"
+    },
+    {
+      "id": "canadapost.priority",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority"
+    },
+    {
+      "id": "canadapost.priority-ww-envelope-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide envelope INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-envelope-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide envelope USA"
+    },
+    {
+      "id": "canadapost.priority-ww-pak-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide pak INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-pak-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide pak USA"
+    },
+    {
+      "id": "canadapost.priority-ww-parcel-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide parcel INT’L"
+    },
+    {
+      "id": "canadapost.priority-ww-parcel-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Priority Worldwide parcel USA"
+    },
+    {
+      "id": "canadapost.regular-parcel",
+      "carrier_name": "Canada Post",
+      "service_name": "Regular Parcel"
+    },
+    {
+      "id": "canadapost.small-packet-international-air",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet International Air"
+    },
+    {
+      "id": "canadapost.small-packet-international-surface",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet International Surface"
+    },
+    {
+      "id": "canadapost.small-packet-usa-air",
+      "carrier_name": "Canada Post",
+      "service_name": "Small Packet USA Air"
+    },
+    {
+      "id": "canadapost.tracked-packet-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Tracked Packet - International"
+    },
+    {
+      "id": "canadapost.tracked-packet-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Tracked Packet USA"
+    },
+    {
+      "id": "canadapost.xpresspost",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost"
+    },
+    {
+      "id": "canadapost.xpresspost-international",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost International"
+    },
+    {
+      "id": "canadapost.xpresspost-usa",
+      "carrier_name": "Canada Post",
+      "service_name": "Xpresspost USA"
+    },
+    {
+      "id": "canpar.ground",
+      "carrier_name": "Canpar",
+      "service_name": "Ground"
+    },
+    {
+      "id": "canpar.international",
+      "carrier_name": "Canpar",
+      "service_name": "International"
+    },
+    {
+      "id": "canpar.overnight",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight"
+    },
+    {
+      "id": "canpar.overnight-letter",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight Letter"
+    },
+    {
+      "id": "canpar.overnight-pak",
+      "carrier_name": "Canpar",
+      "service_name": "Overnight Pak"
+    },
+    {
+      "id": "canpar.select",
+      "carrier_name": "Canpar",
+      "service_name": "Select"
+    },
+    {
+      "id": "canpar.select-letter",
+      "carrier_name": "Canpar",
+      "service_name": "Select Letter"
+    },
+    {
+      "id": "canpar.select-pak",
+      "carrier_name": "Canpar",
+      "service_name": "Select Pak"
+    },
+    {
+      "id": "canpar.select-usa",
+      "carrier_name": "Canpar",
+      "service_name": "Select U.S.A."
+    },
+    {
+      "id": "canpar.usa",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A."
+    },
+    {
+      "id": "canpar.usa-Letter",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A. Letter"
+    },
+    {
+      "id": "canpar.usa-pak",
+      "carrier_name": "Canpar",
+      "service_name": "U.S.A. Pak"
+    },
+    {
+      "id": "gls.ground",
+      "carrier_name": "GLS",
+      "service_name": "Ground"
+    },
+    {
+      "id": "QzGk6Gz9BPcw0v7zsJcIaTAAXd6X7732.standard",
+      "carrier_name": "BinduTestCarrier2",
+      "service_name": "Standard"
+    },
+    {
+      "id": "w2oXoP88bl44DA3Y4hft8dZoLFDp3KFX.standard",
+      "carrier_name": "Carrier Sonu",
+      "service_name": "Standard"
+    },
+    {
+      "id": "e5966ZlRusUUM61sXUM1QQx0Td17iIan.standard",
+      "carrier_name": "Dolphin Carrier",
+      "service_name": "Standard"
+    },
+    {
+      "id": "polarisweb.standard",
+      "carrier_name": "Polaris FPP",
+      "service_name": "Pallet Program"
+    },
+    {
+      "id": "purolatorcourier.express",
+      "carrier_name": "Purolator",
+      "service_name": "Express"
+    },
+    {
+      "id": "purolatorcourier.express-box",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box"
+    },
+    {
+      "id": "purolatorcourier.express-box-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box International"
+    },
+    {
+      "id": "purolatorcourier.express-box1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-box9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-boxUS",
+      "carrier_name": "Purolator",
+      "service_name": "Express Box U.S."
+    },
+    {
+      "id": "purolatorcourier.express-envelope",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope"
+    },
+    {
+      "id": "purolatorcourier.express-envelope-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope International"
+    },
+    {
+      "id": "purolatorcourier.express-envelope-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope U.S."
+    },
+    {
+      "id": "purolatorcourier.express-envelope1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-envelope9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Envelope 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express International"
+    },
+    {
+      "id": "purolatorcourier.express-pack",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack"
+    },
+    {
+      "id": "purolatorcourier.express-pack-international",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack International"
+    },
+    {
+      "id": "purolatorcourier.express-pack-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack U.S."
+    },
+    {
+      "id": "purolatorcourier.express-pack1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-pack9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express Pack 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S."
+    },
+    {
+      "id": "purolatorcourier.express-us-1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-box1030AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Box 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-box9AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Box 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-envelope1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Envelope 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-envelope9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Envelope 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-pack1030am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Pack 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express-us-pack9am",
+      "carrier_name": "Purolator",
+      "service_name": "Express U.S. Pack 9 AM"
+    },
+    {
+      "id": "purolatorcourier.express1030AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express 10:30 AM"
+    },
+    {
+      "id": "purolatorcourier.express9AM",
+      "carrier_name": "Purolator",
+      "service_name": "Express 9 AM"
+    },
+    {
+      "id": "purolatorcourier.ground",
+      "carrier_name": "Purolator",
+      "service_name": "Ground"
+    },
+    {
+      "id": "purolatorcourier.ground-us",
+      "carrier_name": "Purolator",
+      "service_name": "Ground U.S."
+    },
+    {
+      "id": "purolatorcourier.standard",
+      "carrier_name": "Purolator",
+      "service_name": "Standard"
+    }
+  ]
+}

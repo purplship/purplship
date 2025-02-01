@@ -1,40 +1,29 @@
-from typing import List
-from karrio.schemas.freightcom.error import ErrorType
-from karrio.schemas.freightcom.quote_reply import CarrierErrorMessageType
-from karrio.core.models import Message
-from karrio.core.utils import Element, XP
-from karrio.providers.freightcom.utils import Settings
+import typing
+import karrio.core.models as models
+import karrio.providers.freightcom.utils as provider_utils
 
+def parse_error_response(
+    response: dict,
+    settings: provider_utils.Settings,
+    **kwargs,
+) -> typing.List[models.Message]:
+    responses = response if isinstance(response, list) else [response]
 
-def parse_error_response(response: Element, settings: Settings) -> List[Message]:
-    errors = XP.find("Error", response, ErrorType)
-    carrier_errors = XP.find("CarrierErrorMessage", response, CarrierErrorMessageType)
+    errors = [
+        *[_ for _ in responses if _.get("message")],
+    ]
 
     return [
-        *[_extract_error(er, settings) for er in errors if er.Message != ""],
-        *[
-            _extract_carrier_error(er, settings)
-            for er in carrier_errors
-            if er.errorMessage0 != ""
-        ],
+        models.Message(
+            carrier_id=settings.carrier_id,
+            carrier_name=settings.carrier_name,
+            message=error.get("message"),
+            details={
+                **kwargs,
+                **(error.get('data', {}))
+            },
+        )
+        for error in errors
     ]
 
 
-def _extract_carrier_error(
-    error: CarrierErrorMessageType, settings: Settings
-) -> Message:
-    return Message(
-        code="CarrierErrorMessage",
-        carrier_name=settings.carrier_name,
-        carrier_id=settings.carrier_id,
-        message=error.errorMessage0,
-    )
-
-
-def _extract_error(error: ErrorType, settings: Settings) -> Message:
-    return Message(
-        code="Error",
-        carrier_name=settings.carrier_name,
-        carrier_id=settings.carrier_id,
-        message=error.Message,
-    )
